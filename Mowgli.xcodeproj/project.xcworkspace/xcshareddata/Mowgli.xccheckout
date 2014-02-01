@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4FC7D53C-E42D-45EB-8861-2E4B4A3723AD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mowgli</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CD5791B3-E8FD-4A5B-96D6-5CD058FB3D65</key>
+		<string>https://github.com/metodowhite/mowgli.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mowgli.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CD5791B3-E8FD-4A5B-96D6-5CD058FB3D65</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/metodowhite/mowgli.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CD5791B3-E8FD-4A5B-96D6-5CD058FB3D65</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD5791B3-E8FD-4A5B-96D6-5CD058FB3D65</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mowgli</string>
+		</dict>
+	</array>
+</dict>
+</plist>
