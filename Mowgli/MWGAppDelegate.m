@@ -3,14 +3,16 @@
 //  Mowgli
 //
 //  Created by luisa on 01/02/14.
-//  Copyright (c) 2014 luisa. All rights reserved.
+//  Copyright (c) 2014 metodowhite. All rights reserved.
 //
 
-#import "MAppDelegate.h"
+#import "MWGAppDelegate.h"
+#import <JLTMDbClient.h>
+#import <TestFlightSDK/TestFlight.h>
+#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+#import <Parse/Parse.h>
 
-#import "MMasterViewController.h"
-
-@implementation MAppDelegate
+@implementation MWGAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;
@@ -18,13 +20,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    MMasterViewController *controller = (MMasterViewController *)navigationController.topViewController;
-    controller.managedObjectContext = self.managedObjectContext;
+    [Parse setApplicationId:@"GYYqUwHxRuUPeWLmqPDXZOsI1IyhfLDFWiLaAlho"
+                  clientKey:@"6hrJmpaBGhwjmbWRyPCtZ6D9fo3qgbiRpvzwNMHv"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    [TestFlight takeOff:@"e8119653-fc6e-4caa-ba94-49b4755094f7"];
+    
+    [[JLTMDbClient sharedAPIInstance] setAPIKey:@"4552c3fa51f05ffc09b73912931a5406"];
+    
+    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+    [[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        NSLog(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
+    }];
+    
+    // [UIApplication sharedApplication].statusBarHidden = YES;
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -33,7 +45,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
@@ -59,11 +71,11 @@
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         if ([managedObjectContext hasChanges] && ![managedObjectContext save:&error]) {
-             // Replace this implementation with code to handle the error appropriately.
-             // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+            // Replace this implementation with code to handle the error appropriately.
+            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
             NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
             abort();
-        } 
+        }
     }
 }
 
@@ -113,7 +125,7 @@
         /*
          Replace this implementation with code to handle the error appropriately.
          
-         abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development. 
+         abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
          
          Typical reasons for an error here include:
          * The persistent store is not accessible;
@@ -135,7 +147,7 @@
          */
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
-    }    
+    }
     
     return _persistentStoreCoordinator;
 }
@@ -147,5 +159,8 @@
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
+
+
+
 
 @end

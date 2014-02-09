@@ -13,11 +13,9 @@
 		A07D3F23189D4F3B0023D4E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F22189D4F3B0023D4E9 /* CoreData.framework */; };
 		A07D3F29189D4F3B0023D4E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F27189D4F3B0023D4E9 /* InfoPlist.strings */; };
 		A07D3F2B189D4F3B0023D4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2A189D4F3B0023D4E9 /* main.m */; };
-		A07D3F2F189D4F3B0023D4E9 /* MAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2E189D4F3B0023D4E9 /* MAppDelegate.m */; };
+		A07D3F2F189D4F3B0023D4E9 /* MWGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */; };
 		A07D3F32189D4F3B0023D4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F30189D4F3B0023D4E9 /* Main.storyboard */; };
 		A07D3F35189D4F3B0023D4E9 /* Mowgli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F33189D4F3B0023D4E9 /* Mowgli.xcdatamodeld */; };
-		A07D3F38189D4F3B0023D4E9 /* MMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F37189D4F3B0023D4E9 /* MMasterViewController.m */; };
-		A07D3F3B189D4F3B0023D4E9 /* MDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F3A189D4F3B0023D4E9 /* MDetailViewController.m */; };
 		A07D3F3D189D4F3B0023D4E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */; };
 		A07D3F44189D4F3B0023D4E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F43189D4F3B0023D4E9 /* XCTest.framework */; };
 		A07D3F45189D4F3B0023D4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */; };
@@ -25,6 +23,24 @@
 		A07D3F47189D4F3B0023D4E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F22189D4F3B0023D4E9 /* CoreData.framework */; };
 		A07D3F4F189D4F3B0023D4E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F4D189D4F3B0023D4E9 /* InfoPlist.strings */; };
 		A07D3F51189D4F3B0023D4E9 /* MowgliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */; };
+		AE190D36189F06180091C397 /* ios7-film-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D31189F06180091C397 /* ios7-film-outline.png */; };
+		AE190D37189F06180091C397 /* ios7-more-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D32189F06180091C397 /* ios7-more-outline.png */; };
+		AE190D38189F06180091C397 /* levels.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D33189F06180091C397 /* levels.png */; };
+		AE190D39189F06180091C397 /* ios7-film.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D34189F06180091C397 /* ios7-film.png */; };
+		AE190D3A189F06180091C397 /* ios7-more.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D35189F06180091C397 /* ios7-more.png */; };
+		AE190D3E189F120A0091C397 /* MWGSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */; };
+		AE190D42189F1A910091C397 /* MWGFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D41189F1A910091C397 /* MWGFilterViewController.m */; };
+		AE190D45189F26C30091C397 /* MWGListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D44189F26C30091C397 /* MWGListsTableViewController.m */; };
+		AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D47189F4FBF0091C397 /* MWGListsManager.m */; };
+		AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CEB18A7195E0083B01A /* MWGList.m */; };
+		AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CF018A818220083B01A /* MWGMoviesManager.m */; };
+		AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */; };
+		AE515271189DC15200371515 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE515270189DC15200371515 /* Pods-acknowledgements.plist */; };
+		AE515278189E8FA000371515 /* MWGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE515277189E8FA000371515 /* MWGUser.m */; };
+		AEB6EE60189D7B710051D074 /* MWGMoviesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6EE5F189D7B710051D074 /* MWGMoviesMainViewController.m */; };
+		AEB6EE64189D81190051D074 /* MWGMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6EE63189D81190051D074 /* MWGMovie.m */; };
+		AEB6EE6A189D96DB0051D074 /* MWGMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6EE69189D96DB0051D074 /* MWGMovieCell.m */; };
+		F60965574A7443A2B1DCF8FA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8991716505214EB380A57136 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8991716505214EB380A57136 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07D3F19189D4F3B0023D4E9 /* Mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A07D3F1E189D4F3B0023D4E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,20 +64,45 @@
 		A07D3F28189D4F3B0023D4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A07D3F2A189D4F3B0023D4E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A07D3F2C189D4F3B0023D4E9 /* Mowgli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mowgli-Prefix.pch"; sourceTree = "<group>"; };
-		A07D3F2D189D4F3B0023D4E9 /* MAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAppDelegate.h; sourceTree = "<group>"; };
-		A07D3F2E189D4F3B0023D4E9 /* MAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAppDelegate.m; sourceTree = "<group>"; };
+		A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWGAppDelegate.h; sourceTree = "<group>"; };
+		A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWGAppDelegate.m; sourceTree = "<group>"; };
 		A07D3F31189D4F3B0023D4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A07D3F34189D4F3B0023D4E9 /* Mowgli.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mowgli.xcdatamodel; sourceTree = "<group>"; };
-		A07D3F36189D4F3B0023D4E9 /* MMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMasterViewController.h; sourceTree = "<group>"; };
-		A07D3F37189D4F3B0023D4E9 /* MMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMasterViewController.m; sourceTree = "<group>"; };
-		A07D3F39189D4F3B0023D4E9 /* MDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDetailViewController.h; sourceTree = "<group>"; };
-		A07D3F3A189D4F3B0023D4E9 /* MDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDetailViewController.m; sourceTree = "<group>"; };
 		A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A07D3F42189D4F3B0023D4E9 /* MowgliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowgliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07D3F43189D4F3B0023D4E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A07D3F4C189D4F3B0023D4E9 /* MowgliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MowgliTests-Info.plist"; sourceTree = "<group>"; };
 		A07D3F4E189D4F3B0023D4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MowgliTests.m; sourceTree = "<group>"; };
+		AE190D31189F06180091C397 /* ios7-film-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-film-outline.png"; sourceTree = "<group>"; };
+		AE190D32189F06180091C397 /* ios7-more-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-more-outline.png"; sourceTree = "<group>"; };
+		AE190D33189F06180091C397 /* levels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levels.png; sourceTree = "<group>"; };
+		AE190D34189F06180091C397 /* ios7-film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-film.png"; sourceTree = "<group>"; };
+		AE190D35189F06180091C397 /* ios7-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-more.png"; sourceTree = "<group>"; };
+		AE190D3C189F120A0091C397 /* MWGSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGSearchTableViewController.h; sourceTree = "<group>"; };
+		AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGSearchTableViewController.m; sourceTree = "<group>"; };
+		AE190D40189F1A910091C397 /* MWGFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGFilterViewController.h; sourceTree = "<group>"; };
+		AE190D41189F1A910091C397 /* MWGFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGFilterViewController.m; sourceTree = "<group>"; };
+		AE190D43189F26C30091C397 /* MWGListsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListsTableViewController.h; sourceTree = "<group>"; };
+		AE190D44189F26C30091C397 /* MWGListsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListsTableViewController.m; sourceTree = "<group>"; };
+		AE190D46189F4FBF0091C397 /* MWGListsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListsManager.h; sourceTree = "<group>"; };
+		AE190D47189F4FBF0091C397 /* MWGListsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListsManager.m; sourceTree = "<group>"; };
+		AE3D1CEA18A7195E0083B01A /* MWGList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGList.h; sourceTree = "<group>"; };
+		AE3D1CEB18A7195E0083B01A /* MWGList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGList.m; sourceTree = "<group>"; };
+		AE3D1CEF18A818220083B01A /* MWGMoviesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMoviesManager.h; sourceTree = "<group>"; };
+		AE3D1CF018A818220083B01A /* MWGMoviesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMoviesManager.m; sourceTree = "<group>"; };
+		AE51526D189DB0E500371515 /* MWGMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovieDetailViewController.h; sourceTree = "<group>"; };
+		AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovieDetailViewController.m; sourceTree = "<group>"; };
+		AE515270189DC15200371515 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pods-acknowledgements.plist"; path = "../Pods/Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE515276189E8FA000371515 /* MWGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGUser.h; sourceTree = "<group>"; };
+		AE515277189E8FA000371515 /* MWGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGUser.m; sourceTree = "<group>"; };
+		AEB6EE5E189D7B710051D074 /* MWGMoviesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMoviesMainViewController.h; sourceTree = "<group>"; };
+		AEB6EE5F189D7B710051D074 /* MWGMoviesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMoviesMainViewController.m; sourceTree = "<group>"; };
+		AEB6EE62189D81190051D074 /* MWGMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovie.h; sourceTree = "<group>"; };
+		AEB6EE63189D81190051D074 /* MWGMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovie.m; sourceTree = "<group>"; };
+		AEB6EE68189D96DB0051D074 /* MWGMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovieCell.h; sourceTree = "<group>"; };
+		AEB6EE69189D96DB0051D074 /* MWGMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovieCell.m; sourceTree = "<group>"; };
+		CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +114,7 @@
 				A07D3F23189D4F3B0023D4E9 /* CoreData.framework in Frameworks */,
 				A07D3F21189D4F3B0023D4E9 /* UIKit.framework in Frameworks */,
 				A07D3F1D189D4F3B0023D4E9 /* Foundation.framework in Frameworks */,
+				F60965574A7443A2B1DCF8FA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +139,7 @@
 				A07D3F4A189D4F3B0023D4E9 /* MowgliTests */,
 				A07D3F1B189D4F3B0023D4E9 /* Frameworks */,
 				A07D3F1A189D4F3B0023D4E9 /* Products */,
+				CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +160,7 @@
 				A07D3F20189D4F3B0023D4E9 /* UIKit.framework */,
 				A07D3F22189D4F3B0023D4E9 /* CoreData.framework */,
 				A07D3F43189D4F3B0023D4E9 /* XCTest.framework */,
+				8991716505214EB380A57136 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,15 +168,13 @@
 		A07D3F24189D4F3B0023D4E9 /* Mowgli */ = {
 			isa = PBXGroup;
 			children = (
-				A07D3F2D189D4F3B0023D4E9 /* MAppDelegate.h */,
-				A07D3F2E189D4F3B0023D4E9 /* MAppDelegate.m */,
-				A07D3F30189D4F3B0023D4E9 /* Main.storyboard */,
-				A07D3F36189D4F3B0023D4E9 /* MMasterViewController.h */,
-				A07D3F37189D4F3B0023D4E9 /* MMasterViewController.m */,
-				A07D3F39189D4F3B0023D4E9 /* MDetailViewController.h */,
-				A07D3F3A189D4F3B0023D4E9 /* MDetailViewController.m */,
+				A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */,
+				A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */,
+				AE190D3F189F15740091C397 /* Model */,
+				AE3D1CEE18A722F50083B01A /* View */,
+				AE3D1CED18A722490083B01A /* Controller */,
 				A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */,
-				A07D3F33189D4F3B0023D4E9 /* Mowgli.xcdatamodeld */,
+				AE190D3B189F061D0091C397 /* Images */,
 				A07D3F25189D4F3B0023D4E9 /* Supporting Files */,
 			);
 			path = Mowgli;
@@ -144,6 +187,7 @@
 				A07D3F27189D4F3B0023D4E9 /* InfoPlist.strings */,
 				A07D3F2A189D4F3B0023D4E9 /* main.m */,
 				A07D3F2C189D4F3B0023D4E9 /* Mowgli-Prefix.pch */,
+				AE515270189DC15200371515 /* Pods-acknowledgements.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,6 +210,63 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE190D3B189F061D0091C397 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE190D31189F06180091C397 /* ios7-film-outline.png */,
+				AE190D32189F06180091C397 /* ios7-more-outline.png */,
+				AE190D33189F06180091C397 /* levels.png */,
+				AE190D34189F06180091C397 /* ios7-film.png */,
+				AE190D35189F06180091C397 /* ios7-more.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		AE190D3F189F15740091C397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6EE62189D81190051D074 /* MWGMovie.h */,
+				AEB6EE63189D81190051D074 /* MWGMovie.m */,
+				AE3D1CEA18A7195E0083B01A /* MWGList.h */,
+				AE3D1CEB18A7195E0083B01A /* MWGList.m */,
+				AE515276189E8FA000371515 /* MWGUser.h */,
+				AE515277189E8FA000371515 /* MWGUser.m */,
+				AE190D46189F4FBF0091C397 /* MWGListsManager.h */,
+				AE190D47189F4FBF0091C397 /* MWGListsManager.m */,
+				AE3D1CEF18A818220083B01A /* MWGMoviesManager.h */,
+				AE3D1CF018A818220083B01A /* MWGMoviesManager.m */,
+				A07D3F33189D4F3B0023D4E9 /* Mowgli.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE3D1CED18A722490083B01A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB6EE5E189D7B710051D074 /* MWGMoviesMainViewController.h */,
+				AEB6EE5F189D7B710051D074 /* MWGMoviesMainViewController.m */,
+				AE51526D189DB0E500371515 /* MWGMovieDetailViewController.h */,
+				AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */,
+				AE190D3C189F120A0091C397 /* MWGSearchTableViewController.h */,
+				AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */,
+				AE190D43189F26C30091C397 /* MWGListsTableViewController.h */,
+				AE190D44189F26C30091C397 /* MWGListsTableViewController.m */,
+				AE190D40189F1A910091C397 /* MWGFilterViewController.h */,
+				AE190D41189F1A910091C397 /* MWGFilterViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AE3D1CEE18A722F50083B01A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A07D3F30189D4F3B0023D4E9 /* Main.storyboard */,
+				AEB6EE68189D96DB0051D074 /* MWGMovieCell.h */,
+				AEB6EE69189D96DB0051D074 /* MWGMovieCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A07D3F54189D4F3B0023D4E9 /* Build configuration list for PBXNativeTarget "Mowgli" */;
 			buildPhases = (
+				4899AE4ED64D42D682621B96 /* Check Pods Manifest.lock */,
 				A07D3F15189D4F3B0023D4E9 /* Sources */,
 				A07D3F16189D4F3B0023D4E9 /* Frameworks */,
 				A07D3F17189D4F3B0023D4E9 /* Resources */,
+				271726DD28BF46F29AD39367 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,10 +313,13 @@
 		A07D3F11189D4F3B0023D4E9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = M;
+				CLASSPREFIX = MWG;
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = luisa;
+				ORGANIZATIONNAME = metodowhite;
 				TargetAttributes = {
+					A07D3F18189D4F3B0023D4E9 = {
+						DevelopmentTeam = SC8SYTRH6T;
+					};
 					A07D3F41189D4F3B0023D4E9 = {
 						TestTargetID = A07D3F18189D4F3B0023D4E9;
 					};
@@ -243,9 +349,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE190D38189F06180091C397 /* levels.png in Resources */,
 				A07D3F3D189D4F3B0023D4E9 /* Images.xcassets in Resources */,
+				AE190D37189F06180091C397 /* ios7-more-outline.png in Resources */,
 				A07D3F29189D4F3B0023D4E9 /* InfoPlist.strings in Resources */,
+				AE515271189DC15200371515 /* Pods-acknowledgements.plist in Resources */,
+				AE190D36189F06180091C397 /* ios7-film-outline.png in Resources */,
 				A07D3F32189D4F3B0023D4E9 /* Main.storyboard in Resources */,
+				AE190D39189F06180091C397 /* ios7-film.png in Resources */,
+				AE190D3A189F06180091C397 /* ios7-more.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,15 +371,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		271726DD28BF46F29AD39367 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4899AE4ED64D42D682621B96 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A07D3F15189D4F3B0023D4E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D3F3B189D4F3B0023D4E9 /* MDetailViewController.m in Sources */,
-				A07D3F2F189D4F3B0023D4E9 /* MAppDelegate.m in Sources */,
+				A07D3F2F189D4F3B0023D4E9 /* MWGAppDelegate.m in Sources */,
+				AEB6EE64189D81190051D074 /* MWGMovie.m in Sources */,
+				AE190D42189F1A910091C397 /* MWGFilterViewController.m in Sources */,
+				AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */,
+				AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */,
 				A07D3F35189D4F3B0023D4E9 /* Mowgli.xcdatamodeld in Sources */,
-				A07D3F38189D4F3B0023D4E9 /* MMasterViewController.m in Sources */,
+				AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */,
+				AEB6EE6A189D96DB0051D074 /* MWGMovieCell.m in Sources */,
+				AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */,
+				AEB6EE60189D7B710051D074 /* MWGMoviesMainViewController.m in Sources */,
+				AE190D3E189F120A0091C397 /* MWGSearchTableViewController.m in Sources */,
+				AE515278189E8FA000371515 /* MWGUser.m in Sources */,
+				AE190D45189F26C30091C397 /* MWGListsTableViewController.m in Sources */,
 				A07D3F2B189D4F3B0023D4E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,9 +546,11 @@
 		};
 		A07D3F55189D4F3B0023D4E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
 				INFOPLIST_FILE = "Mowgli/Mowgli-Info.plist";
@@ -405,9 +561,11 @@
 		};
 		A07D3F56189D4F3B0023D4E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
 				INFOPLIST_FILE = "Mowgli/Mowgli-Info.plist";
@@ -477,6 +635,7 @@
 				A07D3F56189D4F3B0023D4E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A07D3F57189D4F3B0023D4E9 /* Build configuration list for PBXNativeTarget "MowgliTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +644,7 @@
 				A07D3F59189D4F3B0023D4E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
