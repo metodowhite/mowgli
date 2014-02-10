@@ -32,7 +32,8 @@
     self = [super init];
     if (self) {
         self.selectedMovies = [NSMutableArray array];
-		[self saveDone]; //TODO: investigar RAC y la ausencia de send en caso de no haberse instanciado antes
+		self.listedMovies = [NSMutableArray array];
+		[self saveDone]; //TODO: investigar RAC y la ausencia de "send" en caso de no haberse ejecutado el metodo previamente
     }
     return self;
 }
@@ -60,5 +61,29 @@
     }];
 }
 
+
+#pragma mark - Parse Methods
+
+- (void)getMoviesFromList:(PFObject *)list{
+	PFQuery *query = [PFQuery queryWithClassName:@"Movie"];
+    [query whereKey:@"list" equalTo:list];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *movies, NSError *error) {
+        if (!error) {
+            for (NSDictionary *movie in movies) {
+                [self.listedMovies addObject:movie];
+            }
+			[self modelUpdated];
+        } else {
+            NSLog(@"Error: %@ %@", error, [error userInfo]);
+        }
+    }];
+}
+
+- (void)modelUpdated {
+	self.moviesUpdated = [RACSignal createSignal:^ RACDisposable * (id<RACSubscriber> subscriber) {
+        [subscriber sendCompleted];
+        return nil;
+    }];
+}
 
 @end

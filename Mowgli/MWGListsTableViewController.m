@@ -8,8 +8,9 @@
 
 #import "MWGListsTableViewController.h"
 #import "MWGUser.h"
-#import "MWGListsManager.h"
 #import "MWGMoviesManager.h"
+#import "MWGListsManager.h"
+#import "MWGListMoviesTableViewController.h"
 
 @interface MWGListsTableViewController ()
 @property(nonatomic, strong) NSMutableArray *selectedLists;
@@ -19,12 +20,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     MWGListsManager *myLists = [MWGListsManager sharedInstance];
     [RACObserve(myLists, listsUpdated) subscribeNext:^(id x) {
@@ -155,15 +150,14 @@
  }
  */
 
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
- {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
+
+#pragma mark - Navigation
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+	NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+	[[segue destinationViewController] cleanup];
+	[[segue destinationViewController] setList:[[MWGListsManager sharedInstance] lists][indexPath.row]];
+}
+
 
 @end

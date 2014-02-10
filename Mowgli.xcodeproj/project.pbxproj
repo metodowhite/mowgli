@@ -34,6 +34,7 @@
 		AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D47189F4FBF0091C397 /* MWGListsManager.m */; };
 		AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CEB18A7195E0083B01A /* MWGList.m */; };
 		AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CF018A818220083B01A /* MWGMoviesManager.m */; };
+		AE3D1D3B18A84A280083B01A /* MWGListMoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */; };
 		AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */; };
 		AE515271189DC15200371515 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE515270189DC15200371515 /* Pods-acknowledgements.plist */; };
 		AE515278189E8FA000371515 /* MWGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE515277189E8FA000371515 /* MWGUser.m */; };
@@ -91,6 +92,8 @@
 		AE3D1CEB18A7195E0083B01A /* MWGList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGList.m; sourceTree = "<group>"; };
 		AE3D1CEF18A818220083B01A /* MWGMoviesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMoviesManager.h; sourceTree = "<group>"; };
 		AE3D1CF018A818220083B01A /* MWGMoviesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMoviesManager.m; sourceTree = "<group>"; };
+		AE3D1D3918A84A280083B01A /* MWGListMoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListMoviesTableViewController.h; sourceTree = "<group>"; };
+		AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListMoviesTableViewController.m; sourceTree = "<group>"; };
 		AE51526D189DB0E500371515 /* MWGMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovieDetailViewController.h; sourceTree = "<group>"; };
 		AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovieDetailViewController.m; sourceTree = "<group>"; };
 		AE515270189DC15200371515 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pods-acknowledgements.plist"; path = "../Pods/Pods-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -251,6 +254,8 @@
 				AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */,
 				AE190D43189F26C30091C397 /* MWGListsTableViewController.h */,
 				AE190D44189F26C30091C397 /* MWGListsTableViewController.m */,
+				AE3D1D3918A84A280083B01A /* MWGListMoviesTableViewController.h */,
+				AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */,
 				AE190D40189F1A910091C397 /* MWGFilterViewController.h */,
 				AE190D41189F1A910091C397 /* MWGFilterViewController.m */,
 			);
@@ -416,6 +421,7 @@
 				AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */,
 				A07D3F35189D4F3B0023D4E9 /* Mowgli.xcdatamodeld in Sources */,
 				AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */,
+				AE3D1D3B18A84A280083B01A /* MWGListMoviesTableViewController.m in Sources */,
 				AEB6EE6A189D96DB0051D074 /* MWGMovieCell.m in Sources */,
 				AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */,
 				AEB6EE60189D7B710051D074 /* MWGMoviesMainViewController.m in Sources */,
