@@ -11,10 +11,8 @@
 @implementation MWGList
 
 + (NSDictionary *)JSONKeyPathsByPropertyKey {
-    return @{
-             @"name": @"name",
-             @"movies": @"movies"
-             };
+    return @{@"name": @"name",
+             @"movies": @"movies"};
 }
 
 @end

@@ -7,14 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface MWGListsManager : NSObject
 
 +(id)sharedInstance;
 - (void)addListWithName:(NSString *)name;
 
-@property(strong, nonatomic) RACSignal *listsUpdated;
+//@property(strong, nonatomic) RACSignal *listsUpdated;
 @property(strong, nonatomic) NSMutableArray *lists;
 @property(assign, getter=isAddingMovie) BOOL addingMovie;
 @property(strong, nonatomic) NSMutableArray *selectedLists;

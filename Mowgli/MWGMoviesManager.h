@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
 #import <Parse/Parse.h>
 
 @interface MWGMoviesManager : NSObject
@@ -16,8 +15,8 @@
 - (void)addMovies:(NSArray *)movies toLists:(NSArray *)lists;
 - (void)getMoviesFromList:(PFObject *)list;
 
-@property(strong, nonatomic) RACSignal *moviesUpdated;
-@property(strong, nonatomic) RACSignal *savedSignal;
+//@property(strong, nonatomic) RACSignal *moviesUpdated;
+//@property(strong, nonatomic) RACSignal *savedSignal;
 @property(strong, nonatomic) NSMutableArray *selectedMovies;
 @property(strong, nonatomic) NSMutableArray *listedMovies;
 

@@ -88,10 +88,10 @@
     }
     
     if  (buttonIndex == 2) {
-        [[MWGUser sharedMWGUser] login];
-        [[[MWGUser sharedMWGUser] loggingSignal] subscribeCompleted:^{
-            [self addToLists];
-        }];
+//        [[MWGUser sharedMWGUser] login];
+//        [[[MWGUser sharedMWGUser] loggingSignal] subscribeCompleted:^{
+//            [self addToLists];
+//        }];
     }
 }
 

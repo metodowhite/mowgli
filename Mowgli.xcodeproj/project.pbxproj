@@ -15,7 +15,6 @@
 		A07D3F2B189D4F3B0023D4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2A189D4F3B0023D4E9 /* main.m */; };
 		A07D3F2F189D4F3B0023D4E9 /* MWGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */; };
 		A07D3F32189D4F3B0023D4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F30189D4F3B0023D4E9 /* Main.storyboard */; };
-		A07D3F35189D4F3B0023D4E9 /* Mowgli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F33189D4F3B0023D4E9 /* Mowgli.xcdatamodeld */; };
 		A07D3F3D189D4F3B0023D4E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */; };
 		A07D3F44189D4F3B0023D4E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F43189D4F3B0023D4E9 /* XCTest.framework */; };
 		A07D3F45189D4F3B0023D4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */; };
@@ -23,13 +22,15 @@
 		A07D3F47189D4F3B0023D4E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F22189D4F3B0023D4E9 /* CoreData.framework */; };
 		A07D3F4F189D4F3B0023D4E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F4D189D4F3B0023D4E9 /* InfoPlist.strings */; };
 		A07D3F51189D4F3B0023D4E9 /* MowgliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */; };
+		AE014B9E196A3921001613B1 /* MowgliAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014B9D196A3921001613B1 /* MowgliAPI.m */; };
+		AE014BA1196A4689001613B1 /* MWUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014BA0196A4689001613B1 /* MWUserManager.m */; };
+		AE014BA5196A4704001613B1 /* MWSocialAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014BA4196A4704001613B1 /* MWSocialAvatar.m */; };
 		AE190D36189F06180091C397 /* ios7-film-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D31189F06180091C397 /* ios7-film-outline.png */; };
 		AE190D37189F06180091C397 /* ios7-more-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D32189F06180091C397 /* ios7-more-outline.png */; };
 		AE190D38189F06180091C397 /* levels.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D33189F06180091C397 /* levels.png */; };
 		AE190D39189F06180091C397 /* ios7-film.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D34189F06180091C397 /* ios7-film.png */; };
 		AE190D3A189F06180091C397 /* ios7-more.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D35189F06180091C397 /* ios7-more.png */; };
 		AE190D3E189F120A0091C397 /* MWGSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */; };
-		AE190D42189F1A910091C397 /* MWGFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D41189F1A910091C397 /* MWGFilterViewController.m */; };
 		AE190D45189F26C30091C397 /* MWGListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D44189F26C30091C397 /* MWGListsTableViewController.m */; };
 		AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D47189F4FBF0091C397 /* MWGListsManager.m */; };
 		AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CEB18A7195E0083B01A /* MWGList.m */; };
@@ -65,16 +66,21 @@
 		A07D3F28189D4F3B0023D4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A07D3F2A189D4F3B0023D4E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A07D3F2C189D4F3B0023D4E9 /* Mowgli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mowgli-Prefix.pch"; sourceTree = "<group>"; };
-		A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWGAppDelegate.h; sourceTree = "<group>"; };
-		A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWGAppDelegate.m; sourceTree = "<group>"; };
+		A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MWGAppDelegate.h; path = Mowgli/MWGAppDelegate.h; sourceTree = "<group>"; };
+		A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MWGAppDelegate.m; path = Mowgli/MWGAppDelegate.m; sourceTree = "<group>"; };
 		A07D3F31189D4F3B0023D4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A07D3F34189D4F3B0023D4E9 /* Mowgli.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Mowgli.xcdatamodel; sourceTree = "<group>"; };
 		A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A07D3F42189D4F3B0023D4E9 /* MowgliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowgliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A07D3F43189D4F3B0023D4E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A07D3F4C189D4F3B0023D4E9 /* MowgliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MowgliTests-Info.plist"; sourceTree = "<group>"; };
 		A07D3F4E189D4F3B0023D4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MowgliTests.m; sourceTree = "<group>"; };
+		AE014B9C196A3921001613B1 /* MowgliAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MowgliAPI.h; sourceTree = "<group>"; };
+		AE014B9D196A3921001613B1 /* MowgliAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MowgliAPI.m; sourceTree = "<group>"; };
+		AE014B9F196A4689001613B1 /* MWUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWUserManager.h; sourceTree = "<group>"; };
+		AE014BA0196A4689001613B1 /* MWUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWUserManager.m; sourceTree = "<group>"; };
+		AE014BA3196A4704001613B1 /* MWSocialAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWSocialAvatar.h; sourceTree = "<group>"; };
+		AE014BA4196A4704001613B1 /* MWSocialAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWSocialAvatar.m; sourceTree = "<group>"; };
 		AE190D31189F06180091C397 /* ios7-film-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-film-outline.png"; sourceTree = "<group>"; };
 		AE190D32189F06180091C397 /* ios7-more-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-more-outline.png"; sourceTree = "<group>"; };
 		AE190D33189F06180091C397 /* levels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levels.png; sourceTree = "<group>"; };
@@ -82,8 +88,6 @@
 		AE190D35189F06180091C397 /* ios7-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-more.png"; sourceTree = "<group>"; };
 		AE190D3C189F120A0091C397 /* MWGSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGSearchTableViewController.h; sourceTree = "<group>"; };
 		AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGSearchTableViewController.m; sourceTree = "<group>"; };
-		AE190D40189F1A910091C397 /* MWGFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGFilterViewController.h; sourceTree = "<group>"; };
-		AE190D41189F1A910091C397 /* MWGFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGFilterViewController.m; sourceTree = "<group>"; };
 		AE190D43189F26C30091C397 /* MWGListsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListsTableViewController.h; sourceTree = "<group>"; };
 		AE190D44189F26C30091C397 /* MWGListsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListsTableViewController.m; sourceTree = "<group>"; };
 		AE190D46189F4FBF0091C397 /* MWGListsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListsManager.h; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 		A07D3F10189D4F3B0023D4E9 = {
 			isa = PBXGroup;
 			children = (
+				A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */,
+				A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */,
 				A07D3F24189D4F3B0023D4E9 /* Mowgli */,
 				A07D3F4A189D4F3B0023D4E9 /* MowgliTests */,
 				A07D3F1B189D4F3B0023D4E9 /* Frameworks */,
@@ -171,8 +177,8 @@
 		A07D3F24189D4F3B0023D4E9 /* Mowgli */ = {
 			isa = PBXGroup;
 			children = (
-				A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */,
-				A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */,
+				AE014B9C196A3921001613B1 /* MowgliAPI.h */,
+				AE014B9D196A3921001613B1 /* MowgliAPI.m */,
 				AE190D3F189F15740091C397 /* Model */,
 				AE3D1CEE18A722F50083B01A /* View */,
 				AE3D1CED18A722490083B01A /* Controller */,
@@ -213,6 +219,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AE014BA2196A4695001613B1 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				AE014BA3196A4704001613B1 /* MWSocialAvatar.h */,
+				AE014BA4196A4704001613B1 /* MWSocialAvatar.m */,
+				AE014B9F196A4689001613B1 /* MWUserManager.h */,
+				AE014BA0196A4689001613B1 /* MWUserManager.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
 		AE190D3B189F061D0091C397 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +245,7 @@
 		AE190D3F189F15740091C397 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AE014BA2196A4695001613B1 /* User */,
 				AEB6EE62189D81190051D074 /* MWGMovie.h */,
 				AEB6EE63189D81190051D074 /* MWGMovie.m */,
 				AE3D1CEA18A7195E0083B01A /* MWGList.h */,
@@ -238,7 +256,6 @@
 				AE190D47189F4FBF0091C397 /* MWGListsManager.m */,
 				AE3D1CEF18A818220083B01A /* MWGMoviesManager.h */,
 				AE3D1CF018A818220083B01A /* MWGMoviesManager.m */,
-				A07D3F33189D4F3B0023D4E9 /* Mowgli.xcdatamodeld */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -256,8 +273,6 @@
 				AE190D44189F26C30091C397 /* MWGListsTableViewController.m */,
 				AE3D1D3918A84A280083B01A /* MWGListMoviesTableViewController.h */,
 				AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */,
-				AE190D40189F1A910091C397 /* MWGFilterViewController.h */,
-				AE190D41189F1A910091C397 /* MWGFilterViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -319,7 +334,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MWG;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = metodowhite;
 				TargetAttributes = {
 					A07D3F18189D4F3B0023D4E9 = {
@@ -416,19 +431,20 @@
 			files = (
 				A07D3F2F189D4F3B0023D4E9 /* MWGAppDelegate.m in Sources */,
 				AEB6EE64189D81190051D074 /* MWGMovie.m in Sources */,
-				AE190D42189F1A910091C397 /* MWGFilterViewController.m in Sources */,
 				AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */,
 				AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */,
-				A07D3F35189D4F3B0023D4E9 /* Mowgli.xcdatamodeld in Sources */,
 				AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */,
 				AE3D1D3B18A84A280083B01A /* MWGListMoviesTableViewController.m in Sources */,
 				AEB6EE6A189D96DB0051D074 /* MWGMovieCell.m in Sources */,
 				AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */,
 				AEB6EE60189D7B710051D074 /* MWGMoviesMainViewController.m in Sources */,
+				AE014BA5196A4704001613B1 /* MWSocialAvatar.m in Sources */,
 				AE190D3E189F120A0091C397 /* MWGSearchTableViewController.m in Sources */,
 				AE515278189E8FA000371515 /* MWGUser.m in Sources */,
 				AE190D45189F26C30091C397 /* MWGListsTableViewController.m in Sources */,
+				AE014BA1196A4689001613B1 /* MWUserManager.m in Sources */,
 				A07D3F2B189D4F3B0023D4E9 /* main.m in Sources */,
+				AE014B9E196A3921001613B1 /* MowgliAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,7 +498,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -521,7 +536,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -560,6 +574,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
 				INFOPLIST_FILE = "Mowgli/Mowgli-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -575,6 +590,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
 				INFOPLIST_FILE = "Mowgli/Mowgli-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -583,7 +599,6 @@
 		A07D3F58189D4F3B0023D4E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -606,7 +621,6 @@
 		A07D3F59189D4F3B0023D4E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -653,19 +667,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A07D3F33189D4F3B0023D4E9 /* Mowgli.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A07D3F34189D4F3B0023D4E9 /* Mowgli.xcdatamodel */,
-			);
-			currentVersion = A07D3F34189D4F3B0023D4E9 /* Mowgli.xcdatamodel */;
-			path = Mowgli.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A07D3F11189D4F3B0023D4E9 /* Project object */;
 }

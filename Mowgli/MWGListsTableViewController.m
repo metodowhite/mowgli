@@ -22,13 +22,13 @@
     [super viewDidLoad];
     
     MWGListsManager *myLists = [MWGListsManager sharedInstance];
-    [RACObserve(myLists, listsUpdated) subscribeNext:^(id x) {
-		[self.tableView reloadData];
-		//		[self.tableView endUpdates];
-		//		[self.tableView scrollToRowAtIndexPath:indexPathOfNewItem
-		//							  atScrollPosition:UITableViewScrollPositionBottom
-		//									  animated:YES];
-	}];
+//    [RACObserve(myLists, listsUpdated) subscribeNext:^(id x) {
+//		[self.tableView reloadData];
+//		//		[self.tableView endUpdates];
+//		//		[self.tableView scrollToRowAtIndexPath:indexPathOfNewItem
+//		//							  atScrollPosition:UITableViewScrollPositionBottom
+//		//									  animated:YES];
+//	}];
 	self.tableView.allowsMultipleSelectionDuringEditing = YES;
 }
 
@@ -55,11 +55,11 @@
 	[[MWGMoviesManager sharedInstance] addMovies:selectedMovies
 										 toLists:selectedLists];
 	
-	[[[MWGMoviesManager sharedInstance] savedSignal] subscribeCompleted:^{
-		[selectedMovies removeAllObjects];
-		[selectedLists removeAllObjects];
-		[self dismissViewControllerAnimated:YES completion:nil];
-	}];
+//	[[[MWGMoviesManager sharedInstance] savedSignal] subscribeCompleted:^{
+//		[selectedMovies removeAllObjects];
+//		[selectedLists removeAllObjects];
+//		[self dismissViewControllerAnimated:YES completion:nil];
+//	}];
 }
 
 
@@ -70,13 +70,14 @@
 											 cancelButtonTitle:@"Cancel"
 											 otherButtonTitles:@"Create", nil];
 	[alertView setAlertViewStyle:UIAlertViewStylePlainTextInput];
-	[alertView.rac_buttonClickedSignal subscribeNext:^(NSNumber *buttonIndex) {
-		if ([buttonIndex isEqual:@1]) {
-			[[MWGListsManager sharedInstance] addListWithName:[[alertView textFieldAtIndex:0] text]];
-		}
-	}];
+//	[alertView.rac_buttonClickedSignal subscribeNext:^(NSNumber *buttonIndex) {
+//		if ([buttonIndex isEqual:@1]) {
+//			[[MWGListsManager sharedInstance] addListWithName:[[alertView textFieldAtIndex:0] text]];
+//		}
+//	}];
 	[alertView show];
 }
+
 
 
 - (void)didReceiveMemoryWarning {

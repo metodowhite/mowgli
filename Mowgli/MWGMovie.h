@@ -3,7 +3,7 @@
 //  Mowgli
 //
 //  Created by Cristian Díaz on 01/02/14.
-//  Copyright (c) 2014 luisa. All rights reserved.
+//  Copyright (c) 2014 metodowhite. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -22,6 +22,6 @@
 @property (copy, readonly, nonatomic) NSNumber *voteAverage;
 @property (copy, readonly, nonatomic) NSNumber *voteCount;
 
-//TODO: listar propiedades relativas a listas y funciones internas.
+//TODO: listar propiedades relativas a listas
 
 @end

@@ -24,9 +24,9 @@
     [super viewDidLoad];
 	[self setTitle:_list[@"name"]];
 	MWGMoviesManager *myMovies = [MWGMoviesManager sharedInstance];
-    [RACObserve(myMovies, moviesUpdated) subscribeNext:^(id x) {
-		[self.tableView reloadData];
-	}];
+//    [RACObserve(myMovies, moviesUpdated) subscribeNext:^(id x) {
+//		[self.tableView reloadData];
+//	}];
 }
 
 -(void)viewDidAppear:(BOOL)animated {

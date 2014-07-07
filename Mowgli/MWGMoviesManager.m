@@ -55,10 +55,10 @@
 }
 
 - (void)saveDone {
-	self.savedSignal = [RACSignal createSignal:^ RACDisposable * (id<RACSubscriber> subscriber) {
-        [subscriber sendCompleted];
-        return nil;
-    }];
+//	self.savedSignal = [RACSignal createSignal:^ RACDisposable * (id<RACSubscriber> subscriber) {
+//        [subscriber sendCompleted];
+//        return nil;
+//    }];
 }
 
 
@@ -80,10 +80,10 @@
 }
 
 - (void)modelUpdated {
-	self.moviesUpdated = [RACSignal createSignal:^ RACDisposable * (id<RACSubscriber> subscriber) {
-        [subscriber sendCompleted];
-        return nil;
-    }];
+//	self.moviesUpdated = [RACSignal createSignal:^ RACDisposable * (id<RACSubscriber> subscriber) {
+//        [subscriber sendCompleted];
+//        return nil;
+//    }];
 }
 
 @end

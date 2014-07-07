@@ -7,23 +7,22 @@
 //
 
 #import "MWGMoviesMainViewController.h"
+#import "MowgliAPI.h"
+
 #import "MWGMovie.h"
 #import "MWGMovieCell.h"
 #import "MWGMovieDetailViewController.h"
 #import "MWGListsManager.h"
 
-#include <JLTMDbClient.h>
 #include <AFNetworking/UIImageView+AFNetworking.h>
 
 @interface MWGMoviesMainViewController ()
-@property (strong, nonatomic) NSMutableArray *moviesArr;
-@property (assign, nonatomic) CGFloat scale;
-@property (assign, nonatomic) BOOL fitCells;
-@property (assign, nonatomic) BOOL animatedZooming;
-@property (strong, nonatomic) UIPinchGestureRecognizer *gesture;
-@property (strong, nonatomic) MWGMovie *selectedMovie;
-@property (strong, nonatomic) NSString *baseURL;
-@property (strong, nonatomic) NSArray *posterSizes;
+@property (nonatomic) NSArray *movies;
+@property (nonatomic) CGFloat scale;
+@property (nonatomic) BOOL fitCells;
+@property (nonatomic) BOOL animatedZooming;
+@property (nonatomic) UIPinchGestureRecognizer *gesture;
+@property (nonatomic) MWGMovie *selectedMovie;
 @property (nonatomic) NSInteger numPage;
 @end
 
@@ -34,9 +33,13 @@ const CGFloat kScaleBoundUpper = 2.0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self loadTMDbConf];
     
-    self.fitCells = YES;
+    [[MowgliAPI sharedInstance] loadMoviesPageNumber:1 withCompletion:^(NSArray *movies, NSError *anError) {
+        self.movies = movies;
+        [self.collectionView reloadData];
+    }];
+    
+    self.fitCells = NO;
     self.animatedZooming = NO;
     
     // Default scale is the average between the lower and upper bound
@@ -46,32 +49,6 @@ const CGFloat kScaleBoundUpper = 2.0;
     // Add the pinch to zoom gesture
     self.gesture = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(didReceivePinchGesture:)];
     [self.collectionView addGestureRecognizer:self.gesture];
-}
-
-- (void)loadTMDbConf {
-    [[JLTMDbClient sharedAPIInstance] GET:kJLTMDbConfiguration withParameters:nil andResponseBlock:^(NSDictionary *response, NSError *error) {
-        if(!error){
-            self.baseURL = response[@"images"][@"base_url"];
-            self.posterSizes = response[@"images"][@"poster_sizes"];
-            self.moviesArr = [NSMutableArray array];
-            self.numPage = 1;
-            [self loadMovies];
-        }
-    }];
-}
-
-- (void)loadMovies {
-    [[JLTMDbClient sharedAPIInstance] GET:kJLTMDbMoviePopular withParameters:@{@"page":[NSNumber numberWithInt:_numPage]} andResponseBlock:^(NSDictionary *response, NSError *error) {
-        if(!error){
-            for (NSDictionary *movie in response[@"results"]) {
-                MWGMovie *newMovie = [MTLJSONAdapter modelOfClass:MWGMovie.class fromJSONDictionary:movie error:&error];
-                if (newMovie.posterPath != NULL) {
-                    [self.moviesArr addObject:newMovie];
-                }
-                [self.collectionView reloadData];
-            }
-        }
-    }];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
@@ -84,6 +61,7 @@ const CGFloat kScaleBoundUpper = 2.0;
     [self.navigationController.navigationBar setTintColor:nil];
     [self.navigationController.navigationBar setBarTintColor:nil];
 }
+
 
 #pragma mark - Accessors
 
@@ -98,7 +76,6 @@ const CGFloat kScaleBoundUpper = 2.0;
     }
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -110,45 +87,48 @@ const CGFloat kScaleBoundUpper = 2.0;
     return 1;
 }
 
--(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return [_moviesArr count];
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return [_movies count];
 }
 
-
--(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    if (indexPath.row >=  [_moviesArr count] -1) {
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row >=  [_movies count] -1) {
         self.numPage++;
-        [self loadMovies];
+        [[MowgliAPI sharedInstance] loadMoviesPageNumber:_numPage withCompletion:^(NSArray *movies, NSError *anError) {
+            self.movies = movies;
+            [self.collectionView reloadData];
+        }];
     }
     
     MWGMovieCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"movieCell" forIndexPath:indexPath];
-    MWGMovie *movie = _moviesArr[indexPath.row];
+    MWGMovie *movie = _movies[indexPath.row];
     
     
-    //TODO: mejorar detection of thumbnail size
+    //FIXME: better detection of thumbnail size
     NSString *size;
     
     if (_scale > 1) {
-        size = _posterSizes[3];
+        size = [MowgliAPI sharedInstance].kTMDbPosterSizes[3];
     }
     
     if (_scale <= 1) {
-        size = _posterSizes[2];
+        size = [MowgliAPI sharedInstance].kTMDbPosterSizes[2];
     }
     
     if (_scale <= 0.5) {
-        size = _posterSizes[1];
+        size = [MowgliAPI sharedInstance].kTMDbPosterSizes[1];
     }
     
     if (_scale <= 0.3) {
-        size = _posterSizes[0];
+        size = [MowgliAPI sharedInstance].kTMDbPosterSizes[0];
     }
     
-    [cell.imagePoster setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@%@", _baseURL, size, movie.posterPath]]
+    [cell.imagePoster setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@%@", [MowgliAPI sharedInstance].kTMDbBaseURL, size, movie.posterPath]]
                      placeholderImage:[UIImage imageNamed:@"placeholderImage"]];
     
     return cell;
 }
+
 
 #pragma mark - UICollectionViewDelegateFlowLayout
 
@@ -170,9 +150,10 @@ const CGFloat kScaleBoundUpper = 2.0;
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    self.selectedMovie = _moviesArr[indexPath.row];
+    self.selectedMovie = _movies[indexPath.row];
     [self performSegueWithIdentifier:@"showMovieDetailSegue" sender:self];
 }
+
 
 #pragma mark - Gesture Recognizers
 
@@ -189,18 +170,15 @@ const CGFloat kScaleBoundUpper = 2.0;
         
         
         if (self.animatedZooming) {
-            // Animated zooming (remove and re-add the gesture recognizer to prevent updates during the animation)
-            // [self.collectionView removeGestureRecognizer:self.gesture];
-            // UICollectionViewFlowLayout *newLayout = [[UICollectionViewFlowLayout alloc] init];
-            // [self.collectionView setCollectionViewLayout:newLayout animated:YES completion:^(BOOL finished) {
-            //    [self.collectionView addGestureRecognizer:self.gesture];
-            // }];
+            UICollectionViewFlowLayout *newLayout = [[UICollectionViewFlowLayout alloc] init];
+            [self.collectionView setCollectionViewLayout:newLayout animated:YES completion:nil];
         } else {
             // Invalidate layout
             [self.collectionView.collectionViewLayout invalidateLayout];
         }
     }
 }
+
 
 #pragma mark - Navigation
 
@@ -209,10 +187,10 @@ const CGFloat kScaleBoundUpper = 2.0;
     if ([[segue identifier] isEqualToString:@"showMovieDetailSegue"]) {
         [[segue destinationViewController] setMovie:_selectedMovie];
     }else if ([[segue identifier] isEqualToString:@"searchSegue"]) {
-        //TODO: enviar params al search de ser necesario
+        //TODO: enviar params al search
     }else if ([[segue identifier] isEqualToString:@"showListsSegue"]) {
-		[[MWGListsManager sharedInstance] setAddingMovie:NO];
-	}
+        [[MWGListsManager sharedInstance] setAddingMovie:NO];
+    }
 }
 
 
