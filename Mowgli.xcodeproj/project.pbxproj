@@ -7,345 +7,203 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A07D3F1D189D4F3B0023D4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */; };
-		A07D3F1F189D4F3B0023D4E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F1E189D4F3B0023D4E9 /* CoreGraphics.framework */; };
-		A07D3F21189D4F3B0023D4E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F20189D4F3B0023D4E9 /* UIKit.framework */; };
-		A07D3F23189D4F3B0023D4E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F22189D4F3B0023D4E9 /* CoreData.framework */; };
-		A07D3F29189D4F3B0023D4E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F27189D4F3B0023D4E9 /* InfoPlist.strings */; };
-		A07D3F2B189D4F3B0023D4E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2A189D4F3B0023D4E9 /* main.m */; };
-		A07D3F2F189D4F3B0023D4E9 /* MWGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */; };
-		A07D3F32189D4F3B0023D4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F30189D4F3B0023D4E9 /* Main.storyboard */; };
-		A07D3F3D189D4F3B0023D4E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */; };
-		A07D3F44189D4F3B0023D4E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F43189D4F3B0023D4E9 /* XCTest.framework */; };
-		A07D3F45189D4F3B0023D4E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */; };
-		A07D3F46189D4F3B0023D4E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F20189D4F3B0023D4E9 /* UIKit.framework */; };
-		A07D3F47189D4F3B0023D4E9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07D3F22189D4F3B0023D4E9 /* CoreData.framework */; };
-		A07D3F4F189D4F3B0023D4E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A07D3F4D189D4F3B0023D4E9 /* InfoPlist.strings */; };
-		A07D3F51189D4F3B0023D4E9 /* MowgliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */; };
-		AE014B9E196A3921001613B1 /* MowgliAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014B9D196A3921001613B1 /* MowgliAPI.m */; };
-		AE014BA1196A4689001613B1 /* MWUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014BA0196A4689001613B1 /* MWUserManager.m */; };
-		AE014BA5196A4704001613B1 /* MWSocialAvatar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE014BA4196A4704001613B1 /* MWSocialAvatar.m */; };
-		AE190D36189F06180091C397 /* ios7-film-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D31189F06180091C397 /* ios7-film-outline.png */; };
-		AE190D37189F06180091C397 /* ios7-more-outline.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D32189F06180091C397 /* ios7-more-outline.png */; };
-		AE190D38189F06180091C397 /* levels.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D33189F06180091C397 /* levels.png */; };
-		AE190D39189F06180091C397 /* ios7-film.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D34189F06180091C397 /* ios7-film.png */; };
-		AE190D3A189F06180091C397 /* ios7-more.png in Resources */ = {isa = PBXBuildFile; fileRef = AE190D35189F06180091C397 /* ios7-more.png */; };
-		AE190D3E189F120A0091C397 /* MWGSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */; };
-		AE190D45189F26C30091C397 /* MWGListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D44189F26C30091C397 /* MWGListsTableViewController.m */; };
-		AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE190D47189F4FBF0091C397 /* MWGListsManager.m */; };
-		AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CEB18A7195E0083B01A /* MWGList.m */; };
-		AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1CF018A818220083B01A /* MWGMoviesManager.m */; };
-		AE3D1D3B18A84A280083B01A /* MWGListMoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */; };
-		AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */; };
-		AE515271189DC15200371515 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE515270189DC15200371515 /* Pods-acknowledgements.plist */; };
-		AE515278189E8FA000371515 /* MWGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = AE515277189E8FA000371515 /* MWGUser.m */; };
-		AEB6EE60189D7B710051D074 /* MWGMoviesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6EE5F189D7B710051D074 /* MWGMoviesMainViewController.m */; };
-		AEB6EE64189D81190051D074 /* MWGMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6EE63189D81190051D074 /* MWGMovie.m */; };
-		AEB6EE6A189D96DB0051D074 /* MWGMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB6EE69189D96DB0051D074 /* MWGMovieCell.m */; };
-		F60965574A7443A2B1DCF8FA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8991716505214EB380A57136 /* libPods.a */; };
+		AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052471B401DA000F7BD33 /* AppDelegate.swift */; };
+		AE10524A1B401DA000F7BD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052491B401DA000F7BD33 /* ViewController.swift */; };
+		AE10524D1B401DA000F7BD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10524B1B401DA000F7BD33 /* Main.storyboard */; };
+		AE10524F1B401DA000F7BD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10524E1B401DA000F7BD33 /* Assets.xcassets */; };
+		AE1052521B401DA000F7BD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */; };
+		AE10525D1B401DA000F7BD33 /* mowgliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10525C1B401DA000F7BD33 /* mowgliTests.swift */; };
+		AE1052681B401DA000F7BD33 /* mowgliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052671B401DA000F7BD33 /* mowgliUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A07D3F48189D4F3B0023D4E9 /* PBXContainerItemProxy */ = {
+		AE1052591B401DA000F7BD33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A07D3F11189D4F3B0023D4E9 /* Project object */;
+			containerPortal = AE10523C1B401DA000F7BD33 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A07D3F18189D4F3B0023D4E9;
-			remoteInfo = Mowgli;
+			remoteGlobalIDString = AE1052431B401DA000F7BD33;
+			remoteInfo = mowgli;
+		};
+		AE1052641B401DA000F7BD33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE10523C1B401DA000F7BD33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE1052431B401DA000F7BD33;
+			remoteInfo = mowgli;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8991716505214EB380A57136 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A07D3F19189D4F3B0023D4E9 /* Mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A07D3F1E189D4F3B0023D4E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A07D3F20189D4F3B0023D4E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A07D3F22189D4F3B0023D4E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		A07D3F26189D4F3B0023D4E9 /* Mowgli-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mowgli-Info.plist"; sourceTree = "<group>"; };
-		A07D3F28189D4F3B0023D4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A07D3F2A189D4F3B0023D4E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A07D3F2C189D4F3B0023D4E9 /* Mowgli-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mowgli-Prefix.pch"; sourceTree = "<group>"; };
-		A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MWGAppDelegate.h; path = Mowgli/MWGAppDelegate.h; sourceTree = "<group>"; };
-		A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MWGAppDelegate.m; path = Mowgli/MWGAppDelegate.m; sourceTree = "<group>"; };
-		A07D3F31189D4F3B0023D4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A07D3F42189D4F3B0023D4E9 /* MowgliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowgliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A07D3F43189D4F3B0023D4E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A07D3F4C189D4F3B0023D4E9 /* MowgliTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MowgliTests-Info.plist"; sourceTree = "<group>"; };
-		A07D3F4E189D4F3B0023D4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MowgliTests.m; sourceTree = "<group>"; };
-		AE014B9C196A3921001613B1 /* MowgliAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MowgliAPI.h; sourceTree = "<group>"; };
-		AE014B9D196A3921001613B1 /* MowgliAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MowgliAPI.m; sourceTree = "<group>"; };
-		AE014B9F196A4689001613B1 /* MWUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWUserManager.h; sourceTree = "<group>"; };
-		AE014BA0196A4689001613B1 /* MWUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWUserManager.m; sourceTree = "<group>"; };
-		AE014BA3196A4704001613B1 /* MWSocialAvatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWSocialAvatar.h; sourceTree = "<group>"; };
-		AE014BA4196A4704001613B1 /* MWSocialAvatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWSocialAvatar.m; sourceTree = "<group>"; };
-		AE190D31189F06180091C397 /* ios7-film-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-film-outline.png"; sourceTree = "<group>"; };
-		AE190D32189F06180091C397 /* ios7-more-outline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-more-outline.png"; sourceTree = "<group>"; };
-		AE190D33189F06180091C397 /* levels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levels.png; sourceTree = "<group>"; };
-		AE190D34189F06180091C397 /* ios7-film.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-film.png"; sourceTree = "<group>"; };
-		AE190D35189F06180091C397 /* ios7-more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios7-more.png"; sourceTree = "<group>"; };
-		AE190D3C189F120A0091C397 /* MWGSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGSearchTableViewController.h; sourceTree = "<group>"; };
-		AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGSearchTableViewController.m; sourceTree = "<group>"; };
-		AE190D43189F26C30091C397 /* MWGListsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListsTableViewController.h; sourceTree = "<group>"; };
-		AE190D44189F26C30091C397 /* MWGListsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListsTableViewController.m; sourceTree = "<group>"; };
-		AE190D46189F4FBF0091C397 /* MWGListsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListsManager.h; sourceTree = "<group>"; };
-		AE190D47189F4FBF0091C397 /* MWGListsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListsManager.m; sourceTree = "<group>"; };
-		AE3D1CEA18A7195E0083B01A /* MWGList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGList.h; sourceTree = "<group>"; };
-		AE3D1CEB18A7195E0083B01A /* MWGList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGList.m; sourceTree = "<group>"; };
-		AE3D1CEF18A818220083B01A /* MWGMoviesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMoviesManager.h; sourceTree = "<group>"; };
-		AE3D1CF018A818220083B01A /* MWGMoviesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMoviesManager.m; sourceTree = "<group>"; };
-		AE3D1D3918A84A280083B01A /* MWGListMoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGListMoviesTableViewController.h; sourceTree = "<group>"; };
-		AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGListMoviesTableViewController.m; sourceTree = "<group>"; };
-		AE51526D189DB0E500371515 /* MWGMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovieDetailViewController.h; sourceTree = "<group>"; };
-		AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovieDetailViewController.m; sourceTree = "<group>"; };
-		AE515270189DC15200371515 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Pods-acknowledgements.plist"; path = "../Pods/Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE515276189E8FA000371515 /* MWGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGUser.h; sourceTree = "<group>"; };
-		AE515277189E8FA000371515 /* MWGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGUser.m; sourceTree = "<group>"; };
-		AEB6EE5E189D7B710051D074 /* MWGMoviesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMoviesMainViewController.h; sourceTree = "<group>"; };
-		AEB6EE5F189D7B710051D074 /* MWGMoviesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMoviesMainViewController.m; sourceTree = "<group>"; };
-		AEB6EE62189D81190051D074 /* MWGMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovie.h; sourceTree = "<group>"; };
-		AEB6EE63189D81190051D074 /* MWGMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovie.m; sourceTree = "<group>"; };
-		AEB6EE68189D96DB0051D074 /* MWGMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWGMovieCell.h; sourceTree = "<group>"; };
-		AEB6EE69189D96DB0051D074 /* MWGMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWGMovieCell.m; sourceTree = "<group>"; };
-		CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		AE1052441B401DA000F7BD33 /* mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1052471B401DA000F7BD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE1052491B401DA000F7BD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE10524C1B401DA000F7BD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE10524E1B401DA000F7BD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE1052511B401DA000F7BD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE1052531B401DA000F7BD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1052581B401DA000F7BD33 /* mowgliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mowgliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE10525C1B401DA000F7BD33 /* mowgliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mowgliTests.swift; sourceTree = "<group>"; };
+		AE10525E1B401DA000F7BD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1052631B401DA000F7BD33 /* mowgliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mowgliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1052671B401DA000F7BD33 /* mowgliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mowgliUITests.swift; sourceTree = "<group>"; };
+		AE1052691B401DA000F7BD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A07D3F16189D4F3B0023D4E9 /* Frameworks */ = {
+		AE1052411B401DA000F7BD33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D3F1F189D4F3B0023D4E9 /* CoreGraphics.framework in Frameworks */,
-				A07D3F23189D4F3B0023D4E9 /* CoreData.framework in Frameworks */,
-				A07D3F21189D4F3B0023D4E9 /* UIKit.framework in Frameworks */,
-				A07D3F1D189D4F3B0023D4E9 /* Foundation.framework in Frameworks */,
-				F60965574A7443A2B1DCF8FA /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A07D3F3F189D4F3B0023D4E9 /* Frameworks */ = {
+		AE1052551B401DA000F7BD33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D3F44189D4F3B0023D4E9 /* XCTest.framework in Frameworks */,
-				A07D3F47189D4F3B0023D4E9 /* CoreData.framework in Frameworks */,
-				A07D3F46189D4F3B0023D4E9 /* UIKit.framework in Frameworks */,
-				A07D3F45189D4F3B0023D4E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1052601B401DA000F7BD33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A07D3F10189D4F3B0023D4E9 = {
+		AE10523B1B401DA000F7BD33 = {
 			isa = PBXGroup;
 			children = (
-				A07D3F2D189D4F3B0023D4E9 /* MWGAppDelegate.h */,
-				A07D3F2E189D4F3B0023D4E9 /* MWGAppDelegate.m */,
-				A07D3F24189D4F3B0023D4E9 /* Mowgli */,
-				A07D3F4A189D4F3B0023D4E9 /* MowgliTests */,
-				A07D3F1B189D4F3B0023D4E9 /* Frameworks */,
-				A07D3F1A189D4F3B0023D4E9 /* Products */,
-				CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */,
+				AE1052461B401DA000F7BD33 /* mowgli */,
+				AE10525B1B401DA000F7BD33 /* mowgliTests */,
+				AE1052661B401DA000F7BD33 /* mowgliUITests */,
+				AE1052451B401DA000F7BD33 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A07D3F1A189D4F3B0023D4E9 /* Products */ = {
+		AE1052451B401DA000F7BD33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A07D3F19189D4F3B0023D4E9 /* Mowgli.app */,
-				A07D3F42189D4F3B0023D4E9 /* MowgliTests.xctest */,
+				AE1052441B401DA000F7BD33 /* mowgli.app */,
+				AE1052581B401DA000F7BD33 /* mowgliTests.xctest */,
+				AE1052631B401DA000F7BD33 /* mowgliUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A07D3F1B189D4F3B0023D4E9 /* Frameworks */ = {
+		AE1052461B401DA000F7BD33 /* mowgli */ = {
 			isa = PBXGroup;
 			children = (
-				A07D3F1C189D4F3B0023D4E9 /* Foundation.framework */,
-				A07D3F1E189D4F3B0023D4E9 /* CoreGraphics.framework */,
-				A07D3F20189D4F3B0023D4E9 /* UIKit.framework */,
-				A07D3F22189D4F3B0023D4E9 /* CoreData.framework */,
-				A07D3F43189D4F3B0023D4E9 /* XCTest.framework */,
-				8991716505214EB380A57136 /* libPods.a */,
+				AE1052471B401DA000F7BD33 /* AppDelegate.swift */,
+				AE1052491B401DA000F7BD33 /* ViewController.swift */,
+				AE10524B1B401DA000F7BD33 /* Main.storyboard */,
+				AE10524E1B401DA000F7BD33 /* Assets.xcassets */,
+				AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */,
+				AE1052531B401DA000F7BD33 /* Info.plist */,
 			);
-			name = Frameworks;
+			path = mowgli;
 			sourceTree = "<group>";
 		};
-		A07D3F24189D4F3B0023D4E9 /* Mowgli */ = {
+		AE10525B1B401DA000F7BD33 /* mowgliTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE014B9C196A3921001613B1 /* MowgliAPI.h */,
-				AE014B9D196A3921001613B1 /* MowgliAPI.m */,
-				AE190D3F189F15740091C397 /* Model */,
-				AE3D1CEE18A722F50083B01A /* View */,
-				AE3D1CED18A722490083B01A /* Controller */,
-				A07D3F3C189D4F3B0023D4E9 /* Images.xcassets */,
-				AE190D3B189F061D0091C397 /* Images */,
-				A07D3F25189D4F3B0023D4E9 /* Supporting Files */,
+				AE10525C1B401DA000F7BD33 /* mowgliTests.swift */,
+				AE10525E1B401DA000F7BD33 /* Info.plist */,
 			);
-			path = Mowgli;
+			path = mowgliTests;
 			sourceTree = "<group>";
 		};
-		A07D3F25189D4F3B0023D4E9 /* Supporting Files */ = {
+		AE1052661B401DA000F7BD33 /* mowgliUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A07D3F26189D4F3B0023D4E9 /* Mowgli-Info.plist */,
-				A07D3F27189D4F3B0023D4E9 /* InfoPlist.strings */,
-				A07D3F2A189D4F3B0023D4E9 /* main.m */,
-				A07D3F2C189D4F3B0023D4E9 /* Mowgli-Prefix.pch */,
-				AE515270189DC15200371515 /* Pods-acknowledgements.plist */,
+				AE1052671B401DA000F7BD33 /* mowgliUITests.swift */,
+				AE1052691B401DA000F7BD33 /* Info.plist */,
 			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A07D3F4A189D4F3B0023D4E9 /* MowgliTests */ = {
-			isa = PBXGroup;
-			children = (
-				A07D3F50189D4F3B0023D4E9 /* MowgliTests.m */,
-				A07D3F4B189D4F3B0023D4E9 /* Supporting Files */,
-			);
-			path = MowgliTests;
-			sourceTree = "<group>";
-		};
-		A07D3F4B189D4F3B0023D4E9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				A07D3F4C189D4F3B0023D4E9 /* MowgliTests-Info.plist */,
-				A07D3F4D189D4F3B0023D4E9 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AE014BA2196A4695001613B1 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				AE014BA3196A4704001613B1 /* MWSocialAvatar.h */,
-				AE014BA4196A4704001613B1 /* MWSocialAvatar.m */,
-				AE014B9F196A4689001613B1 /* MWUserManager.h */,
-				AE014BA0196A4689001613B1 /* MWUserManager.m */,
-			);
-			name = User;
-			sourceTree = "<group>";
-		};
-		AE190D3B189F061D0091C397 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				AE190D31189F06180091C397 /* ios7-film-outline.png */,
-				AE190D32189F06180091C397 /* ios7-more-outline.png */,
-				AE190D33189F06180091C397 /* levels.png */,
-				AE190D34189F06180091C397 /* ios7-film.png */,
-				AE190D35189F06180091C397 /* ios7-more.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		AE190D3F189F15740091C397 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				AE014BA2196A4695001613B1 /* User */,
-				AEB6EE62189D81190051D074 /* MWGMovie.h */,
-				AEB6EE63189D81190051D074 /* MWGMovie.m */,
-				AE3D1CEA18A7195E0083B01A /* MWGList.h */,
-				AE3D1CEB18A7195E0083B01A /* MWGList.m */,
-				AE515276189E8FA000371515 /* MWGUser.h */,
-				AE515277189E8FA000371515 /* MWGUser.m */,
-				AE190D46189F4FBF0091C397 /* MWGListsManager.h */,
-				AE190D47189F4FBF0091C397 /* MWGListsManager.m */,
-				AE3D1CEF18A818220083B01A /* MWGMoviesManager.h */,
-				AE3D1CF018A818220083B01A /* MWGMoviesManager.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		AE3D1CED18A722490083B01A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AEB6EE5E189D7B710051D074 /* MWGMoviesMainViewController.h */,
-				AEB6EE5F189D7B710051D074 /* MWGMoviesMainViewController.m */,
-				AE51526D189DB0E500371515 /* MWGMovieDetailViewController.h */,
-				AE51526E189DB0E500371515 /* MWGMovieDetailViewController.m */,
-				AE190D3C189F120A0091C397 /* MWGSearchTableViewController.h */,
-				AE190D3D189F120A0091C397 /* MWGSearchTableViewController.m */,
-				AE190D43189F26C30091C397 /* MWGListsTableViewController.h */,
-				AE190D44189F26C30091C397 /* MWGListsTableViewController.m */,
-				AE3D1D3918A84A280083B01A /* MWGListMoviesTableViewController.h */,
-				AE3D1D3A18A84A280083B01A /* MWGListMoviesTableViewController.m */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		AE3D1CEE18A722F50083B01A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A07D3F30189D4F3B0023D4E9 /* Main.storyboard */,
-				AEB6EE68189D96DB0051D074 /* MWGMovieCell.h */,
-				AEB6EE69189D96DB0051D074 /* MWGMovieCell.m */,
-			);
-			name = View;
+			path = mowgliUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A07D3F18189D4F3B0023D4E9 /* Mowgli */ = {
+		AE1052431B401DA000F7BD33 /* mowgli */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A07D3F54189D4F3B0023D4E9 /* Build configuration list for PBXNativeTarget "Mowgli" */;
+			buildConfigurationList = AE10526C1B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgli" */;
 			buildPhases = (
-				4899AE4ED64D42D682621B96 /* Check Pods Manifest.lock */,
-				A07D3F15189D4F3B0023D4E9 /* Sources */,
-				A07D3F16189D4F3B0023D4E9 /* Frameworks */,
-				A07D3F17189D4F3B0023D4E9 /* Resources */,
-				271726DD28BF46F29AD39367 /* Copy Pods Resources */,
+				AE1052401B401DA000F7BD33 /* Sources */,
+				AE1052411B401DA000F7BD33 /* Frameworks */,
+				AE1052421B401DA000F7BD33 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Mowgli;
-			productName = Mowgli;
-			productReference = A07D3F19189D4F3B0023D4E9 /* Mowgli.app */;
+			name = mowgli;
+			productName = mowgli;
+			productReference = AE1052441B401DA000F7BD33 /* mowgli.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A07D3F41189D4F3B0023D4E9 /* MowgliTests */ = {
+		AE1052571B401DA000F7BD33 /* mowgliTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A07D3F57189D4F3B0023D4E9 /* Build configuration list for PBXNativeTarget "MowgliTests" */;
+			buildConfigurationList = AE10526F1B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgliTests" */;
 			buildPhases = (
-				A07D3F3E189D4F3B0023D4E9 /* Sources */,
-				A07D3F3F189D4F3B0023D4E9 /* Frameworks */,
-				A07D3F40189D4F3B0023D4E9 /* Resources */,
+				AE1052541B401DA000F7BD33 /* Sources */,
+				AE1052551B401DA000F7BD33 /* Frameworks */,
+				AE1052561B401DA000F7BD33 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A07D3F49189D4F3B0023D4E9 /* PBXTargetDependency */,
+				AE10525A1B401DA000F7BD33 /* PBXTargetDependency */,
 			);
-			name = MowgliTests;
-			productName = MowgliTests;
-			productReference = A07D3F42189D4F3B0023D4E9 /* MowgliTests.xctest */;
+			name = mowgliTests;
+			productName = mowgliTests;
+			productReference = AE1052581B401DA000F7BD33 /* mowgliTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE1052621B401DA000F7BD33 /* mowgliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1052721B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgliUITests" */;
+			buildPhases = (
+				AE10525F1B401DA000F7BD33 /* Sources */,
+				AE1052601B401DA000F7BD33 /* Frameworks */,
+				AE1052611B401DA000F7BD33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE1052651B401DA000F7BD33 /* PBXTargetDependency */,
+			);
+			name = mowgliUITests;
+			productName = mowgliUITests;
+			productReference = AE1052631B401DA000F7BD33 /* mowgliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A07D3F11189D4F3B0023D4E9 /* Project object */ = {
+		AE10523C1B401DA000F7BD33 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = MWG;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = metodowhite;
 				TargetAttributes = {
-					A07D3F18189D4F3B0023D4E9 = {
-						DevelopmentTeam = SC8SYTRH6T;
+					AE1052431B401DA000F7BD33 = {
+						CreatedOnToolsVersion = 7.0;
 					};
-					A07D3F41189D4F3B0023D4E9 = {
-						TestTargetID = A07D3F18189D4F3B0023D4E9;
+					AE1052571B401DA000F7BD33 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AE1052431B401DA000F7BD33;
+					};
+					AE1052621B401DA000F7BD33 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = AE1052431B401DA000F7BD33;
 					};
 				};
 			};
-			buildConfigurationList = A07D3F14189D4F3B0023D4E9 /* Build configuration list for PBXProject "Mowgli" */;
+			buildConfigurationList = AE10523F1B401DA000F7BD33 /* Build configuration list for PBXProject "mowgli" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -353,148 +211,107 @@
 				en,
 				Base,
 			);
-			mainGroup = A07D3F10189D4F3B0023D4E9;
-			productRefGroup = A07D3F1A189D4F3B0023D4E9 /* Products */;
+			mainGroup = AE10523B1B401DA000F7BD33;
+			productRefGroup = AE1052451B401DA000F7BD33 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A07D3F18189D4F3B0023D4E9 /* Mowgli */,
-				A07D3F41189D4F3B0023D4E9 /* MowgliTests */,
+				AE1052431B401DA000F7BD33 /* mowgli */,
+				AE1052571B401DA000F7BD33 /* mowgliTests */,
+				AE1052621B401DA000F7BD33 /* mowgliUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A07D3F17189D4F3B0023D4E9 /* Resources */ = {
+		AE1052421B401DA000F7BD33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE190D38189F06180091C397 /* levels.png in Resources */,
-				A07D3F3D189D4F3B0023D4E9 /* Images.xcassets in Resources */,
-				AE190D37189F06180091C397 /* ios7-more-outline.png in Resources */,
-				A07D3F29189D4F3B0023D4E9 /* InfoPlist.strings in Resources */,
-				AE515271189DC15200371515 /* Pods-acknowledgements.plist in Resources */,
-				AE190D36189F06180091C397 /* ios7-film-outline.png in Resources */,
-				A07D3F32189D4F3B0023D4E9 /* Main.storyboard in Resources */,
-				AE190D39189F06180091C397 /* ios7-film.png in Resources */,
-				AE190D3A189F06180091C397 /* ios7-more.png in Resources */,
+				AE1052521B401DA000F7BD33 /* LaunchScreen.storyboard in Resources */,
+				AE10524F1B401DA000F7BD33 /* Assets.xcassets in Resources */,
+				AE10524D1B401DA000F7BD33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A07D3F40189D4F3B0023D4E9 /* Resources */ = {
+		AE1052561B401DA000F7BD33 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D3F4F189D4F3B0023D4E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE1052611B401DA000F7BD33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		271726DD28BF46F29AD39367 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4899AE4ED64D42D682621B96 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		A07D3F15189D4F3B0023D4E9 /* Sources */ = {
+		AE1052401B401DA000F7BD33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D3F2F189D4F3B0023D4E9 /* MWGAppDelegate.m in Sources */,
-				AEB6EE64189D81190051D074 /* MWGMovie.m in Sources */,
-				AE190D48189F4FBF0091C397 /* MWGListsManager.m in Sources */,
-				AE3D1CF118A818220083B01A /* MWGMoviesManager.m in Sources */,
-				AE51526F189DB0E500371515 /* MWGMovieDetailViewController.m in Sources */,
-				AE3D1D3B18A84A280083B01A /* MWGListMoviesTableViewController.m in Sources */,
-				AEB6EE6A189D96DB0051D074 /* MWGMovieCell.m in Sources */,
-				AE3D1CEC18A7195E0083B01A /* MWGList.m in Sources */,
-				AEB6EE60189D7B710051D074 /* MWGMoviesMainViewController.m in Sources */,
-				AE014BA5196A4704001613B1 /* MWSocialAvatar.m in Sources */,
-				AE190D3E189F120A0091C397 /* MWGSearchTableViewController.m in Sources */,
-				AE515278189E8FA000371515 /* MWGUser.m in Sources */,
-				AE190D45189F26C30091C397 /* MWGListsTableViewController.m in Sources */,
-				AE014BA1196A4689001613B1 /* MWUserManager.m in Sources */,
-				A07D3F2B189D4F3B0023D4E9 /* main.m in Sources */,
-				AE014B9E196A3921001613B1 /* MowgliAPI.m in Sources */,
+				AE10524A1B401DA000F7BD33 /* ViewController.swift in Sources */,
+				AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A07D3F3E189D4F3B0023D4E9 /* Sources */ = {
+		AE1052541B401DA000F7BD33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A07D3F51189D4F3B0023D4E9 /* MowgliTests.m in Sources */,
+				AE10525D1B401DA000F7BD33 /* mowgliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE10525F1B401DA000F7BD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE1052681B401DA000F7BD33 /* mowgliUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A07D3F49189D4F3B0023D4E9 /* PBXTargetDependency */ = {
+		AE10525A1B401DA000F7BD33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A07D3F18189D4F3B0023D4E9 /* Mowgli */;
-			targetProxy = A07D3F48189D4F3B0023D4E9 /* PBXContainerItemProxy */;
+			target = AE1052431B401DA000F7BD33 /* mowgli */;
+			targetProxy = AE1052591B401DA000F7BD33 /* PBXContainerItemProxy */;
+		};
+		AE1052651B401DA000F7BD33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE1052431B401DA000F7BD33 /* mowgli */;
+			targetProxy = AE1052641B401DA000F7BD33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A07D3F27189D4F3B0023D4E9 /* InfoPlist.strings */ = {
+		AE10524B1B401DA000F7BD33 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A07D3F28189D4F3B0023D4E9 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A07D3F30189D4F3B0023D4E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A07D3F31189D4F3B0023D4E9 /* Base */,
+				AE10524C1B401DA000F7BD33 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A07D3F4D189D4F3B0023D4E9 /* InfoPlist.strings */ = {
+		AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A07D3F4E189D4F3B0023D4E9 /* en */,
+				AE1052511B401DA000F7BD33 /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A07D3F52189D4F3B0023D4E9 /* Debug */ = {
+		AE10526A1B401DA000F7BD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -509,30 +326,37 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A07D3F53189D4F3B0023D4E9 /* Release */ = {
+		AE10526B1B401DA000F7BD33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -547,126 +371,136 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A07D3F55189D4F3B0023D4E9 /* Debug */ = {
+		AE10526D1B401DA000F7BD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
-				INFOPLIST_FILE = "Mowgli/Mowgli-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = mowgli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		A07D3F56189D4F3B0023D4E9 /* Release */ = {
+		AE10526E1B401DA000F7BD33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD0E010CB52C43C9A8E3CED4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
-				INFOPLIST_FILE = "Mowgli/Mowgli-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = mowgli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		A07D3F58189D4F3B0023D4E9 /* Debug */ = {
+		AE1052701B401DA000F7BD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "MowgliTests/MowgliTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mowgliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgliTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mowgli.app/mowgli";
 			};
 			name = Debug;
 		};
-		A07D3F59189D4F3B0023D4E9 /* Release */ = {
+		AE1052711B401DA000F7BD33 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Mowgli/Mowgli-Prefix.pch";
-				INFOPLIST_FILE = "MowgliTests/MowgliTests-Info.plist";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mowgliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgliTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mowgli.app/mowgli";
+			};
+			name = Release;
+		};
+		AE1052731B401DA000F7BD33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mowgliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mowgli;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AE1052741B401DA000F7BD33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mowgliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mowgli;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A07D3F14189D4F3B0023D4E9 /* Build configuration list for PBXProject "Mowgli" */ = {
+		AE10523F1B401DA000F7BD33 /* Build configuration list for PBXProject "mowgli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A07D3F52189D4F3B0023D4E9 /* Debug */,
-				A07D3F53189D4F3B0023D4E9 /* Release */,
+				AE10526A1B401DA000F7BD33 /* Debug */,
+				AE10526B1B401DA000F7BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A07D3F54189D4F3B0023D4E9 /* Build configuration list for PBXNativeTarget "Mowgli" */ = {
+		AE10526C1B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A07D3F55189D4F3B0023D4E9 /* Debug */,
-				A07D3F56189D4F3B0023D4E9 /* Release */,
+				AE10526D1B401DA000F7BD33 /* Debug */,
+				AE10526E1B401DA000F7BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		A07D3F57189D4F3B0023D4E9 /* Build configuration list for PBXNativeTarget "MowgliTests" */ = {
+		AE10526F1B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgliTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A07D3F58189D4F3B0023D4E9 /* Debug */,
-				A07D3F59189D4F3B0023D4E9 /* Release */,
+				AE1052701B401DA000F7BD33 /* Debug */,
+				AE1052711B401DA000F7BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+		};
+		AE1052721B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE1052731B401DA000F7BD33 /* Debug */,
+				AE1052741B401DA000F7BD33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A07D3F11189D4F3B0023D4E9 /* Project object */;
+	rootObject = AE10523C1B401DA000F7BD33 /* Project object */;
 }

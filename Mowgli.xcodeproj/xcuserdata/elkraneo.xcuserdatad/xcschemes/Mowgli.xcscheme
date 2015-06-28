@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A07D3F18189D4F3B0023D4E9"
-               BuildableName = "Mowgli.app"
-               BlueprintName = "Mowgli"
-               ReferencedContainer = "container:Mowgli.xcodeproj">
+               BlueprintIdentifier = "AE1052431B401DA000F7BD33"
+               BuildableName = "mowgli.app"
+               BlueprintName = "mowgli"
+               ReferencedContainer = "container:mowgli.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,22 +32,34 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A07D3F41189D4F3B0023D4E9"
-               BuildableName = "MowgliTests.xctest"
-               BlueprintName = "MowgliTests"
-               ReferencedContainer = "container:Mowgli.xcodeproj">
+               BlueprintIdentifier = "AE1052571B401DA000F7BD33"
+               BuildableName = "mowgliTests.xctest"
+               BlueprintName = "mowgliTests"
+               ReferencedContainer = "container:mowgli.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE1052621B401DA000F7BD33"
+               BuildableName = "mowgliUITests.xctest"
+               BlueprintName = "mowgliUITests"
+               ReferencedContainer = "container:mowgli.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A07D3F18189D4F3B0023D4E9"
-            BuildableName = "Mowgli.app"
-            BlueprintName = "Mowgli"
-            ReferencedContainer = "container:Mowgli.xcodeproj">
+            BlueprintIdentifier = "AE1052431B401DA000F7BD33"
+            BuildableName = "mowgli.app"
+            BlueprintName = "mowgli"
+            ReferencedContainer = "container:mowgli.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -57,14 +69,16 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A07D3F18189D4F3B0023D4E9"
-            BuildableName = "Mowgli.app"
-            BlueprintName = "Mowgli"
-            ReferencedContainer = "container:Mowgli.xcodeproj">
+            BlueprintIdentifier = "AE1052431B401DA000F7BD33"
+            BuildableName = "mowgli.app"
+            BlueprintName = "mowgli"
+            ReferencedContainer = "container:mowgli.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +90,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A07D3F18189D4F3B0023D4E9"
-            BuildableName = "Mowgli.app"
-            BlueprintName = "Mowgli"
-            ReferencedContainer = "container:Mowgli.xcodeproj">
+            BlueprintIdentifier = "AE1052431B401DA000F7BD33"
+            BuildableName = "mowgli.app"
+            BlueprintName = "mowgli"
+            ReferencedContainer = "container:mowgli.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

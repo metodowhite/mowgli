@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Mowgli.xcscheme</key>
+		<key>mowgli.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A07D3F18189D4F3B0023D4E9</key>
+		<key>AE1052431B401DA000F7BD33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A07D3F41189D4F3B0023D4E9</key>
+		<key>AE1052571B401DA000F7BD33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE1052621B401DA000F7BD33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
