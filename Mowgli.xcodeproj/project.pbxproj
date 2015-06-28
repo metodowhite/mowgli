@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052471B401DA000F7BD33 /* AppDelegate.swift */; };
-		AE10524A1B401DA000F7BD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052491B401DA000F7BD33 /* ViewController.swift */; };
 		AE10524D1B401DA000F7BD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10524B1B401DA000F7BD33 /* Main.storyboard */; };
 		AE10524F1B401DA000F7BD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10524E1B401DA000F7BD33 /* Assets.xcassets */; };
 		AE1052521B401DA000F7BD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */; };
 		AE10525D1B401DA000F7BD33 /* mowgliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10525C1B401DA000F7BD33 /* mowgliTests.swift */; };
 		AE1052681B401DA000F7BD33 /* mowgliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052671B401DA000F7BD33 /* mowgliUITests.swift */; };
+		AE1052761B402EE600F7BD33 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052751B402EE600F7BD33 /* MoviesViewController.swift */; };
+		AE1052781B40304C00F7BD33 /* MoviesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052771B40304C00F7BD33 /* MoviesPresenter.swift */; };
+		AE10527A1B40340C00F7BD33 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */; };
+		AE10527E1B40372900F7BD33 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10527D1B40372900F7BD33 /* Movie.swift */; };
+		AEA1C96C1B403E4500D46D97 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA1C96B1B403E4500D46D97 /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AE1052441B401DA000F7BD33 /* mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1052471B401DA000F7BD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE1052491B401DA000F7BD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE10524C1B401DA000F7BD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE10524E1B401DA000F7BD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE1052511B401DA000F7BD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		AE1052631B401DA000F7BD33 /* mowgliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mowgliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1052671B401DA000F7BD33 /* mowgliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mowgliUITests.swift; sourceTree = "<group>"; };
 		AE1052691B401DA000F7BD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1052751B402EE600F7BD33 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		AE1052771B40304C00F7BD33 /* MoviesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
+		AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
+		AE10527D1B40372900F7BD33 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AEA1C96B1B403E4500D46D97 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = mowgli/MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		AE10523B1B401DA000F7BD33 = {
 			isa = PBXGroup;
 			children = (
+				AEA1C96B1B403E4500D46D97 /* MovieCell.swift */,
 				AE1052461B401DA000F7BD33 /* mowgli */,
 				AE10525B1B401DA000F7BD33 /* mowgliTests */,
 				AE1052661B401DA000F7BD33 /* mowgliUITests */,
@@ -98,11 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				AE1052471B401DA000F7BD33 /* AppDelegate.swift */,
-				AE1052491B401DA000F7BD33 /* ViewController.swift */,
-				AE10524B1B401DA000F7BD33 /* Main.storyboard */,
 				AE10524E1B401DA000F7BD33 /* Assets.xcassets */,
-				AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */,
+				AE10527B1B40362000F7BD33 /* Coordinators */,
 				AE1052531B401DA000F7BD33 /* Info.plist */,
+				AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */,
+				AE10524B1B401DA000F7BD33 /* Main.storyboard */,
+				AE1052751B402EE600F7BD33 /* MoviesViewController.swift */,
+				AE10527F1B40375900F7BD33 /* Models */,
+				AE10527C1B40362C00F7BD33 /* Presenters */,
 			);
 			path = mowgli;
 			sourceTree = "<group>";
@@ -123,6 +135,30 @@
 				AE1052691B401DA000F7BD33 /* Info.plist */,
 			);
 			path = mowgliUITests;
+			sourceTree = "<group>";
+		};
+		AE10527B1B40362000F7BD33 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */,
+			);
+			name = Coordinators;
+			sourceTree = "<group>";
+		};
+		AE10527C1B40362C00F7BD33 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				AE1052771B40304C00F7BD33 /* MoviesPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		AE10527F1B40375900F7BD33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE10527D1B40372900F7BD33 /* Movie.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,8 +291,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE10524A1B401DA000F7BD33 /* ViewController.swift in Sources */,
 				AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */,
+				AE10527A1B40340C00F7BD33 /* MoviesCoordinator.swift in Sources */,
+				AEA1C96C1B403E4500D46D97 /* MovieCell.swift in Sources */,
+				AE1052761B402EE600F7BD33 /* MoviesViewController.swift in Sources */,
+				AE1052781B40304C00F7BD33 /* MoviesPresenter.swift in Sources */,
+				AE10527E1B40372900F7BD33 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +523,7 @@
 				AE10526E1B401DA000F7BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE10526F1B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgliTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +532,7 @@
 				AE1052711B401DA000F7BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE1052721B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgliUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +541,7 @@
 				AE1052741B401DA000F7BD33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
