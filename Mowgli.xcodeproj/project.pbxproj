@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A210B41293FEE6610C576D9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33B9B371BA8C921CCAAE782 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052471B401DA000F7BD33 /* AppDelegate.swift */; };
 		AE10524D1B401DA000F7BD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10524B1B401DA000F7BD33 /* Main.storyboard */; };
 		AE10524F1B401DA000F7BD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10524E1B401DA000F7BD33 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 		AE10527A1B40340C00F7BD33 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */; };
 		AE10527E1B40372900F7BD33 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10527D1B40372900F7BD33 /* Movie.swift */; };
 		AEA1C96C1B403E4500D46D97 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA1C96B1B403E4500D46D97 /* MovieCell.swift */; };
+		AF1B79C51B506A06007186DC /* ApplicationConfing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B79C41B506A06007186DC /* ApplicationConfing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F9A3C1269728C39503BAFA8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		98F418294CE1AD1962E21155 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AE1052441B401DA000F7BD33 /* mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1052471B401DA000F7BD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE10524C1B401DA000F7BD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,11 +54,14 @@
 		AE1052631B401DA000F7BD33 /* mowgliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mowgliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1052671B401DA000F7BD33 /* mowgliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mowgliUITests.swift; sourceTree = "<group>"; };
 		AE1052691B401DA000F7BD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE1052751B402EE600F7BD33 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		AE1052751B402EE600F7BD33 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../../mowgli/MoviesViewController.swift; sourceTree = "<group>"; };
 		AE1052771B40304C00F7BD33 /* MoviesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
 		AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
 		AE10527D1B40372900F7BD33 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		AEA1C96B1B403E4500D46D97 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = mowgli/MovieCell.swift; sourceTree = "<group>"; };
+		AEA1C96B1B403E4500D46D97 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = ../../mowgli/MovieCell.swift; sourceTree = "<group>"; };
+		AF1B79C41B506A06007186DC /* ApplicationConfing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationConfing.swift; sourceTree = "<group>"; };
+		AF1B79C81B506A8C007186DC /* mowgli-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "mowgli-Bridging-Header.h"; path = "../Mowgli/Config/mowgli-Bridging-Header.h"; sourceTree = "<group>"; };
+		E33B9B371BA8C921CCAAE782 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A210B41293FEE6610C576D9 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,14 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9243FFC32ED60B49B64CCC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E33B9B371BA8C921CCAAE782 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE10523B1B401DA000F7BD33 = {
 			isa = PBXGroup;
 			children = (
-				AEA1C96B1B403E4500D46D97 /* MovieCell.swift */,
 				AE1052461B401DA000F7BD33 /* mowgli */,
 				AE10525B1B401DA000F7BD33 /* mowgliTests */,
 				AE1052661B401DA000F7BD33 /* mowgliUITests */,
 				AE1052451B401DA000F7BD33 /* Products */,
+				F5028859F63703636B0FF538 /* Pods */,
+				9243FFC32ED60B49B64CCC9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,15 +123,16 @@
 		AE1052461B401DA000F7BD33 /* mowgli */ = {
 			isa = PBXGroup;
 			children = (
+				AF3464A41B50687600756AEE /* Config */,
 				AE1052471B401DA000F7BD33 /* AppDelegate.swift */,
-				AE10524E1B401DA000F7BD33 /* Assets.xcassets */,
+				AF1B79CC1B506ABF007186DC /* Sources */,
+				AF3464A21B50683A00756AEE /* Controllers */,
 				AE10527B1B40362000F7BD33 /* Coordinators */,
-				AE1052531B401DA000F7BD33 /* Info.plist */,
 				AE1052501B401DA000F7BD33 /* LaunchScreen.storyboard */,
 				AE10524B1B401DA000F7BD33 /* Main.storyboard */,
-				AE1052751B402EE600F7BD33 /* MoviesViewController.swift */,
 				AE10527F1B40375900F7BD33 /* Models */,
 				AE10527C1B40362C00F7BD33 /* Presenters */,
+				AF3464A31B50683A00756AEE /* Views */,
 			);
 			path = mowgli;
 			sourceTree = "<group>";
@@ -161,6 +179,52 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		AF1B79CC1B506ABF007186DC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AE10524E1B401DA000F7BD33 /* Assets.xcassets */,
+				AF1B79C81B506A8C007186DC /* mowgli-Bridging-Header.h */,
+				AE1052531B401DA000F7BD33 /* Info.plist */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		AF3464A21B50683A00756AEE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE1052751B402EE600F7BD33 /* MoviesViewController.swift */,
+			);
+			name = Controllers;
+			path = Mowgli/Controllers;
+			sourceTree = SOURCE_ROOT;
+		};
+		AF3464A31B50683A00756AEE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEA1C96B1B403E4500D46D97 /* MovieCell.swift */,
+			);
+			name = Views;
+			path = Mowgli/Views;
+			sourceTree = SOURCE_ROOT;
+		};
+		AF3464A41B50687600756AEE /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				AF1B79C41B506A06007186DC /* ApplicationConfing.swift */,
+			);
+			name = Config;
+			path = Mowgli/Config;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5028859F63703636B0FF538 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F9A3C1269728C39503BAFA8 /* Pods.debug.xcconfig */,
+				98F418294CE1AD1962E21155 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10526C1B401DA000F7BD33 /* Build configuration list for PBXNativeTarget "mowgli" */;
 			buildPhases = (
+				C2D0EA4A438EE0507460E369 /* Check Pods Manifest.lock */,
 				AE1052401B401DA000F7BD33 /* Sources */,
 				AE1052411B401DA000F7BD33 /* Frameworks */,
 				AE1052421B401DA000F7BD33 /* Resources */,
+				1A64C17F544E7572AA3C174E /* Embed Pods Frameworks */,
+				4E773A8840A08CDED2E61937 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,6 +290,7 @@
 		AE10523C1B401DA000F7BD33 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = metodowhite;
 				TargetAttributes = {
@@ -239,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE10523F1B401DA000F7BD33 /* Build configuration list for PBXProject "mowgli" */;
+			buildConfigurationList = AE10523F1B401DA000F7BD33 /* Build configuration list for PBXProject "Mowgli" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,6 +354,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A64C17F544E7572AA3C174E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E773A8840A08CDED2E61937 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2D0EA4A438EE0507460E369 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE1052401B401DA000F7BD33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,6 +410,7 @@
 				AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */,
 				AE10527A1B40340C00F7BD33 /* MoviesCoordinator.swift in Sources */,
 				AEA1C96C1B403E4500D46D97 /* MovieCell.swift in Sources */,
+				AF1B79C51B506A06007186DC /* ApplicationConfing.swift in Sources */,
 				AE1052761B402EE600F7BD33 /* MoviesViewController.swift in Sources */,
 				AE1052781B40304C00F7BD33 /* MoviesPresenter.swift in Sources */,
 				AE10527E1B40372900F7BD33 /* Movie.swift in Sources */,
@@ -436,23 +553,30 @@
 		};
 		AE10526D1B401DA000F7BD33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F9A3C1269728C39503BAFA8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mowgli/Config/mowgli-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		AE10526E1B401DA000F7BD33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F418294CE1AD1962E21155 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.mowgli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mowgli/Config/mowgli-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -507,7 +631,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE10523F1B401DA000F7BD33 /* Build configuration list for PBXProject "mowgli" */ = {
+		AE10523F1B401DA000F7BD33 /* Build configuration list for PBXProject "Mowgli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE10526A1B401DA000F7BD33 /* Debug */,
