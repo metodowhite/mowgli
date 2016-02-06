@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		
-        AppConfiguration.sharedInstance.runBaasSetup(launchOptions: launchOptions)
+        AppConfiguration.shared.runBaasSetup(launchOptions: launchOptions)
 		
         return true
 	}

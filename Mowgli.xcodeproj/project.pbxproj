@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A210B41293FEE6610C576D9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33B9B371BA8C921CCAAE782 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9A210B41293FEE6610C576D9 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33B9B371BA8C921CCAAE782 /* Pods.framework */; };
 		AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052471B401DA000F7BD33 /* AppDelegate.swift */; };
 		AE10524D1B401DA000F7BD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE10524B1B401DA000F7BD33 /* Main.storyboard */; };
 		AE10524F1B401DA000F7BD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE10524E1B401DA000F7BD33 /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 		AE10527A1B40340C00F7BD33 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */; };
 		AE10527E1B40372900F7BD33 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10527D1B40372900F7BD33 /* Movie.swift */; };
 		AEA1C96C1B403E4500D46D97 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA1C96B1B403E4500D46D97 /* MovieCell.swift */; };
-		AF1B79C51B506A06007186DC /* ApplicationConfing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B79C41B506A06007186DC /* ApplicationConfing.swift */; };
+		AF1B79C51B506A06007186DC /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1B79C41B506A06007186DC /* AppConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		AE1052631B401DA000F7BD33 /* mowgliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mowgliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1052671B401DA000F7BD33 /* mowgliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mowgliUITests.swift; sourceTree = "<group>"; };
 		AE1052691B401DA000F7BD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE1052751B402EE600F7BD33 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = ../../mowgli/MoviesViewController.swift; sourceTree = "<group>"; };
+		AE1052751B402EE600F7BD33 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MoviesViewController.swift; path = Mowgli/MoviesViewController.swift; sourceTree = "<group>"; };
 		AE1052771B40304C00F7BD33 /* MoviesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesPresenter.swift; sourceTree = "<group>"; };
 		AE1052791B40340C00F7BD33 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
 		AE10527D1B40372900F7BD33 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		AEA1C96B1B403E4500D46D97 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = ../../mowgli/MovieCell.swift; sourceTree = "<group>"; };
-		AF1B79C41B506A06007186DC /* ApplicationConfing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationConfing.swift; sourceTree = "<group>"; };
+		AEA1C96B1B403E4500D46D97 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieCell.swift; path = Mowgli/MovieCell.swift; sourceTree = "<group>"; };
+		AF1B79C41B506A06007186DC /* AppConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
 		AF1B79C81B506A8C007186DC /* mowgli-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "mowgli-Bridging-Header.h"; path = "../Mowgli/Config/mowgli-Bridging-Header.h"; sourceTree = "<group>"; };
 		E33B9B371BA8C921CCAAE782 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -210,7 +210,7 @@
 		AF3464A41B50687600756AEE /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				AF1B79C41B506A06007186DC /* ApplicationConfing.swift */,
+				AF1B79C41B506A06007186DC /* AppConfiguration.swift */,
 			);
 			name = Config;
 			path = Mowgli/Config;
@@ -410,7 +410,7 @@
 				AE1052481B401DA000F7BD33 /* AppDelegate.swift in Sources */,
 				AE10527A1B40340C00F7BD33 /* MoviesCoordinator.swift in Sources */,
 				AEA1C96C1B403E4500D46D97 /* MovieCell.swift in Sources */,
-				AF1B79C51B506A06007186DC /* ApplicationConfing.swift in Sources */,
+				AF1B79C51B506A06007186DC /* AppConfiguration.swift in Sources */,
 				AE1052761B402EE600F7BD33 /* MoviesViewController.swift in Sources */,
 				AE1052781B40304C00F7BD33 /* MoviesPresenter.swift in Sources */,
 				AE10527E1B40372900F7BD33 /* Movie.swift in Sources */,

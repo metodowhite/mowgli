@@ -1,6 +1,0 @@
-framework module JLTMDbClient {
-  umbrella header "Pods-JLTMDbClient-umbrella.h"
-
-  export *
-  module * { export * }
-}
