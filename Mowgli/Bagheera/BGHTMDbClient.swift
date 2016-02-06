@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import Freddy
+import SwiftTask
 
 //MARK: - API URL
 let TMDbAPIBaseURL = "https://api.themoviedb.org/3/"
@@ -36,31 +37,48 @@ public struct BGHTMDbClient {
 	
 	public let APIKey: String
 	
-	public func fetchMovieList(list: MovieListEndpoint) -> MovieList {
-		Alamofire.request(.GET, TMDbAPIBaseURL + list.rawValue, parameters: ["api_key": APIKey])
-			.responseJSON { response in
-				
-				guard let JSONData = response.data else {
-					return
-				}
-				
-				do {
-					let json = try JSON(data: JSONData)
-					let movieList = try MovieList(json: json)
-					
-					return movieList
-					print(movieList)
-					
-				} catch {
-					//
-				}
-		}
+	public func fetchMovieList(list: MovieListEndpoint) {
+		task_movieList(list)
+			.success{ value -> Void in
+				print(value)
+			}
 	}
+	
 	
 	public init(APIKey key: String) {
 		self.APIKey = key
 	}
+}
+
+extension BGHTMDbClient {
 	
+	typealias MovieListTask = Task<Float, MovieList, NSError>
+	
+	func task_movieList(list: MovieListEndpoint) -> MovieListTask {
+		return MovieListTask { progress, fulfill, reject, configure in
+			Alamofire.request(.GET, TMDbAPIBaseURL + list.rawValue, parameters: ["api_key": self.APIKey])
+				.responseJSON { response in
+					
+					guard let JSONData = response.data else {
+						return
+					}
+					
+					do {
+						let json = try JSON(data: JSONData)
+						let movieList = try MovieList(json: json)
+						
+						fulfill(movieList)
+						print(movieList)
+						
+					} catch {
+						reject(response.result.error!)
+						return
+					}
+			}
+			
+			return
+		}
+	}
 }
 
 
