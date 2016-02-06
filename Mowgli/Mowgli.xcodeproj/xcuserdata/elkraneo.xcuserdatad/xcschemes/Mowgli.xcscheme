@@ -48,6 +48,26 @@
                ReferencedContainer = "container:Mowgli.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE6F6CF31C6623B80045DF8B"
+               BuildableName = "MowgliKitTests.xctest"
+               BlueprintName = "MowgliKitTests"
+               ReferencedContainer = "container:Mowgli.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AE6F6D161C66243C0045DF8B"
+               BuildableName = "BagheeraTests.xctest"
+               BlueprintName = "BagheeraTests"
+               ReferencedContainer = "container:Mowgli.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

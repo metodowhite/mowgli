@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Bagheera.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Mowgli.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>MowgliKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +33,26 @@
 			<true/>
 		</dict>
 		<key>AE6F6CD31C661E220045DF8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE6F6CEA1C6623B80045DF8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE6F6CF31C6623B80045DF8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE6F6D0D1C66243C0045DF8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE6F6D161C66243C0045DF8B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
