@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4329A0C9678B6BACFBB435D6'
-               BlueprintName = 'Pods'
+               BlueprintIdentifier = 'AC1BB718B04E5F161862F44D'
+               BlueprintName = 'SwiftTask'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods.framework'>
+               BuildableName = 'SwiftTask.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
