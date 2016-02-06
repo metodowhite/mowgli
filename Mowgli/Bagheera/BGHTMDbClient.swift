@@ -27,10 +27,10 @@ public enum MovieListEndpoint: String {
 	case TopRated = "movie/top_rated"
 }
 
-//public enum MovieListError: ErrorType {
-//	case NoResponse
-//	case NoData
-//}
+public enum MovieListError: ErrorType {
+	case NoResponse
+	case NoData
+}
 
 
 public struct BGHTMDbClient {
@@ -39,11 +39,13 @@ public struct BGHTMDbClient {
 	
 	public func fetchMovieList(list: MovieListEndpoint) {
 		task_movieList(list)
-			.success{ value -> Void in
+			.success { value -> Void in
 				print(value)
 			}
+			.failure { (error: MovieListError?, isCancelled: Bool) -> Void in
+				print(error)
+		}
 	}
-	
 	
 	public init(APIKey key: String) {
 		self.APIKey = key
@@ -52,7 +54,7 @@ public struct BGHTMDbClient {
 
 extension BGHTMDbClient {
 	
-	typealias MovieListTask = Task<Float, MovieList, NSError>
+	typealias MovieListTask = Task<Float, MovieList, MovieListError>
 	
 	func task_movieList(list: MovieListEndpoint) -> MovieListTask {
 		return MovieListTask { progress, fulfill, reject, configure in
@@ -66,29 +68,32 @@ extension BGHTMDbClient {
 					do {
 						let json = try JSON(data: JSONData)
 						let movieList = try MovieList(json: json)
-						
 						fulfill(movieList)
-						print(movieList)
-						
 					} catch {
-						reject(response.result.error!)
+						reject(MovieListError.NoResponse)
 						return
 					}
 			}
-			
-			return
 		}
 	}
 }
 
 
 public struct MovieList {
+	public let page: Int
 	public let results: Array<JSON>
+//	public let results: Array<Movie>
+	public let totalPages: Int
+	public let totalResults: Int
 }
 
 extension MovieList: JSONDecodable {
 	public init(json value: JSON) throws {
+		page = try value.int("page")
 		results = try value.array("results")
+//		results = Movie(value.array("results"))
+		totalPages = try value.int("total_pages")
+		totalResults = try value.int("total_results")
 	}
 }
 

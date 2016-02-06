@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AE6F6CB91C661E220045DF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CB81C661E220045DF8B /* AppDelegate.swift */; };
-		AE6F6CBB1C661E220045DF8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CBA1C661E220045DF8B /* ViewController.swift */; };
 		AE6F6CBE1C661E220045DF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBC1C661E220045DF8B /* Main.storyboard */; };
 		AE6F6CC01C661E220045DF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBF1C661E220045DF8B /* Assets.xcassets */; };
 		AE6F6CC31C661E220045DF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CC11C661E220045DF8B /* LaunchScreen.storyboard */; };
@@ -26,6 +25,8 @@
 		AE6F6D241C66243C0045DF8B /* Bagheera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AE6F6D2C1C6624920045DF8B /* BGHTMDbClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D2B1C6624920045DF8B /* BGHTMDbClient.swift */; };
 		AE6F6D2D1C6629190045DF8B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E066FDFA708E8C1511E3EF /* Pods.framework */; };
+		AE6F6D2F1C6641A50045DF8B /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */; };
+		AE6F6D311C6642750045DF8B /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */; };
 		DE257971B5AA4A3E7F9D318D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E066FDFA708E8C1511E3EF /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -107,7 +108,6 @@
 		13E066FDFA708E8C1511E3EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CB51C661E220045DF8B /* Mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CB81C661E220045DF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE6F6CBA1C661E220045DF8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE6F6CBD1C661E220045DF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE6F6CBF1C661E220045DF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE6F6CC21C661E220045DF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -131,6 +131,8 @@
 		AE6F6D1E1C66243C0045DF8B /* BagheeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagheeraTests.swift; sourceTree = "<group>"; };
 		AE6F6D201C66243C0045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6F6D2B1C6624920045DF8B /* BGHTMDbClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGHTMDbClient.swift; sourceTree = "<group>"; };
+		AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
 		BC4004A5338AD63E0182CCB8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D4DB576A3CFDB62151160258 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -245,11 +247,11 @@
 			isa = PBXGroup;
 			children = (
 				AE6F6CB81C661E220045DF8B /* AppDelegate.swift */,
-				AE6F6CBA1C661E220045DF8B /* ViewController.swift */,
-				AE6F6CBC1C661E220045DF8B /* Main.storyboard */,
 				AE6F6CBF1C661E220045DF8B /* Assets.xcassets */,
-				AE6F6CC11C661E220045DF8B /* LaunchScreen.storyboard */,
 				AE6F6CC41C661E220045DF8B /* Info.plist */,
+				AE6F6CC11C661E220045DF8B /* LaunchScreen.storyboard */,
+				AE6F6CBC1C661E220045DF8B /* Main.storyboard */,
+				AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */,
 			);
 			path = Mowgli;
 			sourceTree = "<group>";
@@ -277,6 +279,7 @@
 			children = (
 				AE6F6CED1C6623B80045DF8B /* MowgliKit.h */,
 				AE6F6CEF1C6623B80045DF8B /* Info.plist */,
+				AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */,
 			);
 			path = MowgliKit;
 			sourceTree = "<group>";
@@ -633,7 +636,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6CBB1C661E220045DF8B /* ViewController.swift in Sources */,
+				AE6F6D2F1C6641A50045DF8B /* MovieListTableViewController.swift in Sources */,
 				AE6F6CB91C661E220045DF8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -658,6 +661,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6F6D311C6642750045DF8B /* MovieListPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,6 +842,7 @@
 			baseConfigurationReference = BC4004A5338AD63E0182CCB8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Mowgli;
@@ -850,6 +855,7 @@
 			baseConfigurationReference = D4DB576A3CFDB62151160258 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Mowgli;
@@ -908,6 +914,7 @@
 		AE6F6D021C6623B80045DF8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -919,6 +926,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.MowgliKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -927,6 +935,7 @@
 		AE6F6D031C6623B80045DF8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
