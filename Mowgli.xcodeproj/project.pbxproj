@@ -479,6 +479,7 @@
 				TargetAttributes = {
 					AE6F6CB41C661E220045DF8B = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SC8SYTRH6T;
 					};
 					AE6F6CC81C661E220045DF8B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -842,6 +843,7 @@
 			baseConfigurationReference = BC4004A5338AD63E0182CCB8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -855,6 +857,7 @@
 			baseConfigurationReference = D4DB576A3CFDB62151160258 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
