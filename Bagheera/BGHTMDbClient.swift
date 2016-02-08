@@ -96,13 +96,37 @@ extension MovieList: JSONDecodable {
 }
 
 public struct Movie {
+    public let adult: Bool
+    public let movieID: Int
+    public let genreIDs: Array<Int>
     public let title: String
     public let overview: String
+    public let releaseDate: String
+    public let originalLanguage: String
+    public let originalTitle: String
+    public let posterPath: String
+    public let backgroundPath: String
+    public let popularity: Int
+    public let voteAverage: Int
+    public let voteCount: Int
+    public let video: Bool
 }
 
 extension Movie: JSONDecodable {
     public init(json value: JSON) throws {
+        adult = try value.bool("adult")
+        movieID = try value.int("id")
+        genreIDs = try value.arrayOf("genre_ids", type: Swift.Int)
         title = try value.string("title")
         overview = try value.string("overview")
+        releaseDate = try value.string("release_date")
+        originalLanguage = try value.string("original_language")
+        originalTitle = try value.string("original_title")
+        posterPath = try value.string("poster_path")
+        backgroundPath = try value.string("backdrop_path")
+        popularity = try value.int("popularity")
+        voteAverage = try value.int("vote_average")
+        voteCount = try value.int("vote_count")
+        video = try value.bool("video")
     }
 }
