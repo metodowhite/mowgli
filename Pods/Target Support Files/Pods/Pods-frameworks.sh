@@ -86,12 +86,12 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/Alamofire.framework"
   install_framework "Pods/Freddy.framework"
-  install_framework "Pods/ReactKit.framework"
-  install_framework "Pods/SwiftTask.framework"
+  install_framework "Pods/RxCocoa.framework"
+  install_framework "Pods/RxSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Alamofire.framework"
   install_framework "Pods/Freddy.framework"
-  install_framework "Pods/ReactKit.framework"
-  install_framework "Pods/SwiftTask.framework"
+  install_framework "Pods/RxCocoa.framework"
+  install_framework "Pods/RxSwift.framework"
 fi
