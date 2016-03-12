@@ -14,8 +14,8 @@ class MovieListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
-			let testBagheera = BGHTMDbClient(APIKey: "4552c3fa51f05ffc09b73912931a5406")
-			testBagheera.fetchMovieList(.NowPlaying)
+			let testBagheera = BagTMDbClient(APIKey: "4552c3fa51f05ffc09b73912931a5406")
+			testBagheera.fetchMovies(.NowPlaying)
     }
 
     override func didReceiveMemoryWarning() {

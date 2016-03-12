@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE25E2471C942FF80025BCBC /* BagTMDbClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25E2461C942FF80025BCBC /* BagTMDbClient.swift */; };
 		AE6F6CB91C661E220045DF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CB81C661E220045DF8B /* AppDelegate.swift */; };
 		AE6F6CBE1C661E220045DF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBC1C661E220045DF8B /* Main.storyboard */; };
 		AE6F6CC01C661E220045DF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBF1C661E220045DF8B /* Assets.xcassets */; };
@@ -23,7 +24,6 @@
 		AE6F6D1F1C66243C0045DF8B /* BagheeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D1E1C66243C0045DF8B /* BagheeraTests.swift */; };
 		AE6F6D231C66243C0045DF8B /* Bagheera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */; };
 		AE6F6D241C66243C0045DF8B /* Bagheera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AE6F6D2C1C6624920045DF8B /* BGHTMDbClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D2B1C6624920045DF8B /* BGHTMDbClient.swift */; };
 		AE6F6D2D1C6629190045DF8B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E066FDFA708E8C1511E3EF /* Pods.framework */; };
 		AE6F6D2F1C6641A50045DF8B /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */; };
 		AE6F6D311C6642750045DF8B /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */; };
@@ -106,6 +106,7 @@
 
 /* Begin PBXFileReference section */
 		13E066FDFA708E8C1511E3EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE25E2461C942FF80025BCBC /* BagTMDbClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagTMDbClient.swift; sourceTree = "<group>"; };
 		AE6F6CB51C661E220045DF8B /* Mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CB81C661E220045DF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6F6CBD1C661E220045DF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,7 +131,6 @@
 		AE6F6D171C66243C0045DF8B /* BagheeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagheeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6D1E1C66243C0045DF8B /* BagheeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagheeraTests.swift; sourceTree = "<group>"; };
 		AE6F6D201C66243C0045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6F6D2B1C6624920045DF8B /* BGHTMDbClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGHTMDbClient.swift; sourceTree = "<group>"; };
 		AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
 		AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
 		BC4004A5338AD63E0182CCB8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -298,7 +298,7 @@
 			children = (
 				AE6F6D101C66243C0045DF8B /* Bagheera.h */,
 				AE6F6D121C66243C0045DF8B /* Info.plist */,
-				AE6F6D2B1C6624920045DF8B /* BGHTMDbClient.swift */,
+				AE25E2461C942FF80025BCBC /* BagTMDbClient.swift */,
 			);
 			path = Bagheera;
 			sourceTree = "<group>";
@@ -678,7 +678,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6D2C1C6624920045DF8B /* BGHTMDbClient.swift in Sources */,
+				AE25E2471C942FF80025BCBC /* BagTMDbClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
