@@ -7,26 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE25E2471C942FF80025BCBC /* BagTMDbClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25E2461C942FF80025BCBC /* BagTMDbClient.swift */; };
 		AE6F6CB91C661E220045DF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CB81C661E220045DF8B /* AppDelegate.swift */; };
 		AE6F6CBE1C661E220045DF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBC1C661E220045DF8B /* Main.storyboard */; };
 		AE6F6CC01C661E220045DF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBF1C661E220045DF8B /* Assets.xcassets */; };
 		AE6F6CC31C661E220045DF8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CC11C661E220045DF8B /* LaunchScreen.storyboard */; };
 		AE6F6CCE1C661E220045DF8B /* MowgliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CCD1C661E220045DF8B /* MowgliTests.swift */; };
 		AE6F6CD91C661E220045DF8B /* MowgliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CD81C661E220045DF8B /* MowgliUITests.swift */; };
-		AE6F6CEE1C6623B80045DF8B /* MowgliKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6F6CED1C6623B80045DF8B /* MowgliKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE6F6CF51C6623B80045DF8B /* MowgliKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6CEB1C6623B80045DF8B /* MowgliKit.framework */; };
-		AE6F6CFC1C6623B80045DF8B /* MowgliKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CFB1C6623B80045DF8B /* MowgliKitTests.swift */; };
-		AE6F6D001C6623B80045DF8B /* MowgliKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6CEB1C6623B80045DF8B /* MowgliKit.framework */; };
-		AE6F6D011C6623B80045DF8B /* MowgliKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6CEB1C6623B80045DF8B /* MowgliKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AE6F6D111C66243C0045DF8B /* Bagheera.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6F6D101C66243C0045DF8B /* Bagheera.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE6F6D181C66243C0045DF8B /* Bagheera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */; };
-		AE6F6D1F1C66243C0045DF8B /* BagheeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D1E1C66243C0045DF8B /* BagheeraTests.swift */; };
-		AE6F6D231C66243C0045DF8B /* Bagheera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */; };
-		AE6F6D241C66243C0045DF8B /* Bagheera.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AE6F6D2D1C6629190045DF8B /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E066FDFA708E8C1511E3EF /* Pods.framework */; };
 		AE6F6D2F1C6641A50045DF8B /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */; };
-		AE6F6D311C6642750045DF8B /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */; };
+		AEE14FBD1C9F56B00068DC13 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE14FBC1C9F56B00068DC13 /* Movie.swift */; };
+		AEE14FBF1C9F56FF0068DC13 /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE14FBE1C9F56FF0068DC13 /* MovieList.swift */; };
+		AEFC90511C9F44F600308704 /* Bagheera.h in Headers */ = {isa = PBXBuildFile; fileRef = AEFC90501C9F44F600308704 /* Bagheera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEFC90581C9F44F600308704 /* Bagheera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFC904E1C9F44F600308704 /* Bagheera.framework */; };
+		AEFC905D1C9F44F600308704 /* BagheeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFC905C1C9F44F600308704 /* BagheeraTests.swift */; };
+		AEFC90651C9F450700308704 /* BGHTMDbClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE25E2461C942FF80025BCBC /* BGHTMDbClient.swift */; };
+		AEFC908B1C9F45A100308704 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E066FDFA708E8C1511E3EF /* Pods.framework */; };
 		DE257971B5AA4A3E7F9D318D /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E066FDFA708E8C1511E3EF /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,46 +39,11 @@
 			remoteGlobalIDString = AE6F6CB41C661E220045DF8B;
 			remoteInfo = Mowgli;
 		};
-		AE6F6CF61C6623B80045DF8B /* PBXContainerItemProxy */ = {
+		AEFC90591C9F44F600308704 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AE6F6CAD1C661E220045DF8B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AE6F6CEA1C6623B80045DF8B;
-			remoteInfo = MowgliKit;
-		};
-		AE6F6CF81C6623B80045DF8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE6F6CAD1C661E220045DF8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE6F6CB41C661E220045DF8B;
-			remoteInfo = Mowgli;
-		};
-		AE6F6CFE1C6623B80045DF8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE6F6CAD1C661E220045DF8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE6F6CEA1C6623B80045DF8B;
-			remoteInfo = MowgliKit;
-		};
-		AE6F6D191C66243C0045DF8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE6F6CAD1C661E220045DF8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE6F6D0D1C66243C0045DF8B;
-			remoteInfo = Bagheera;
-		};
-		AE6F6D1B1C66243C0045DF8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE6F6CAD1C661E220045DF8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE6F6CB41C661E220045DF8B;
-			remoteInfo = Mowgli;
-		};
-		AE6F6D211C66243C0045DF8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE6F6CAD1C661E220045DF8B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE6F6D0D1C66243C0045DF8B;
+			remoteGlobalIDString = AEFC904D1C9F44F600308704;
 			remoteInfo = Bagheera;
 		};
 /* End PBXContainerItemProxy section */
@@ -96,8 +55,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AE6F6D011C6623B80045DF8B /* MowgliKit.framework in Embed Frameworks */,
-				AE6F6D241C66243C0045DF8B /* Bagheera.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,7 +63,7 @@
 
 /* Begin PBXFileReference section */
 		13E066FDFA708E8C1511E3EF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE25E2461C942FF80025BCBC /* BagTMDbClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BagTMDbClient.swift; sourceTree = "<group>"; };
+		AE25E2461C942FF80025BCBC /* BGHTMDbClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BGHTMDbClient.swift; sourceTree = "<group>"; };
 		AE6F6CB51C661E220045DF8B /* Mowgli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mowgli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CB81C661E220045DF8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE6F6CBD1C661E220045DF8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,20 +76,21 @@
 		AE6F6CD41C661E220045DF8B /* MowgliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowgliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CD81C661E220045DF8B /* MowgliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MowgliUITests.swift; sourceTree = "<group>"; };
 		AE6F6CDA1C661E220045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6F6CEB1C6623B80045DF8B /* MowgliKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MowgliKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE6F6CED1C6623B80045DF8B /* MowgliKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MowgliKit.h; sourceTree = "<group>"; };
-		AE6F6CEF1C6623B80045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6F6CF41C6623B80045DF8B /* MowgliKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowgliKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CFB1C6623B80045DF8B /* MowgliKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MowgliKitTests.swift; sourceTree = "<group>"; };
 		AE6F6CFD1C6623B80045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bagheera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE6F6D101C66243C0045DF8B /* Bagheera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bagheera.h; sourceTree = "<group>"; };
-		AE6F6D121C66243C0045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6F6D171C66243C0045DF8B /* BagheeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagheeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE6F6D1E1C66243C0045DF8B /* BagheeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagheeraTests.swift; sourceTree = "<group>"; };
-		AE6F6D201C66243C0045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
-		AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListPresenter.swift; sourceTree = "<group>"; };
+		AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieListPresenter.swift; path = MowgliKit/MovieListPresenter.swift; sourceTree = SOURCE_ROOT; };
+		AEE14FB91C9F472F0068DC13 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
+		AEE14FBC1C9F56B00068DC13 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		AEE14FBE1C9F56FF0068DC13 /* MovieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
+		AEFC904E1C9F44F600308704 /* Bagheera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Bagheera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFC90501C9F44F600308704 /* Bagheera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bagheera.h; sourceTree = "<group>"; };
+		AEFC90521C9F44F600308704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFC90571C9F44F600308704 /* BagheeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagheeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFC905C1C9F44F600308704 /* BagheeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagheeraTests.swift; sourceTree = "<group>"; };
+		AEFC905E1C9F44F600308704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFC907B1C9F452B00308704 /* MowgliKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MowgliKitTests.swift; sourceTree = "<group>"; };
+		AEFC907D1C9F452B00308704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4004A5338AD63E0182CCB8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D4DB576A3CFDB62151160258 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,8 +100,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6D001C6623B80045DF8B /* MowgliKit.framework in Frameworks */,
-				AE6F6D231C66243C0045DF8B /* Bagheera.framework in Frameworks */,
 				DE257971B5AA4A3E7F9D318D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,34 +118,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE6F6CE71C6623B80045DF8B /* Frameworks */ = {
+		AEFC904A1C9F44F600308704 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFC908B1C9F45A100308704 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE6F6CF11C6623B80045DF8B /* Frameworks */ = {
+		AEFC90541C9F44F600308704 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6CF51C6623B80045DF8B /* MowgliKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D0A1C66243C0045DF8B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE6F6D2D1C6629190045DF8B /* Pods.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D141C66243C0045DF8B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE6F6D181C66243C0045DF8B /* Bagheera.framework in Frameworks */,
+				AEFC90581C9F44F600308704 /* Bagheera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +149,7 @@
 		A7600E6ADECD065611222EE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEE14FB91C9F472F0068DC13 /* Pods.framework */,
 				13E066FDFA708E8C1511E3EF /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -217,15 +159,15 @@
 			isa = PBXGroup;
 			children = (
 				AE6F6CB71C661E220045DF8B /* Mowgli */,
+				AEFC904F1C9F44F600308704 /* Bagheera */,
+				AEFC905B1C9F44F600308704 /* BagheeraTests */,
+				A7600E6ADECD065611222EE4 /* Frameworks */,
+				AE6F6CFA1C6623B80045DF8B /* MowgliKitTests */,
+				AEFC907A1C9F452B00308704 /* MowgliKitTests */,
 				AE6F6CCC1C661E220045DF8B /* MowgliTests */,
 				AE6F6CD71C661E220045DF8B /* MowgliUITests */,
-				AE6F6CEC1C6623B80045DF8B /* MowgliKit */,
-				AE6F6CFA1C6623B80045DF8B /* MowgliKitTests */,
-				AE6F6D0F1C66243C0045DF8B /* Bagheera */,
-				AE6F6D1D1C66243C0045DF8B /* BagheeraTests */,
-				AE6F6CB61C661E220045DF8B /* Products */,
 				57B64A52392E8A5396A99E01 /* Pods */,
-				A7600E6ADECD065611222EE4 /* Frameworks */,
+				AE6F6CB61C661E220045DF8B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,10 +177,8 @@
 				AE6F6CB51C661E220045DF8B /* Mowgli.app */,
 				AE6F6CC91C661E220045DF8B /* MowgliTests.xctest */,
 				AE6F6CD41C661E220045DF8B /* MowgliUITests.xctest */,
-				AE6F6CEB1C6623B80045DF8B /* MowgliKit.framework */,
-				AE6F6CF41C6623B80045DF8B /* MowgliKitTests.xctest */,
-				AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */,
-				AE6F6D171C66243C0045DF8B /* BagheeraTests.xctest */,
+				AEFC904E1C9F44F600308704 /* Bagheera.framework */,
+				AEFC90571C9F44F600308704 /* BagheeraTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -246,6 +186,7 @@
 		AE6F6CB71C661E220045DF8B /* Mowgli */ = {
 			isa = PBXGroup;
 			children = (
+				AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */,
 				AE6F6CB81C661E220045DF8B /* AppDelegate.swift */,
 				AE6F6CBF1C661E220045DF8B /* Assets.xcassets */,
 				AE6F6CC41C661E220045DF8B /* Info.plist */,
@@ -274,16 +215,6 @@
 			path = MowgliUITests;
 			sourceTree = "<group>";
 		};
-		AE6F6CEC1C6623B80045DF8B /* MowgliKit */ = {
-			isa = PBXGroup;
-			children = (
-				AE6F6CED1C6623B80045DF8B /* MowgliKit.h */,
-				AE6F6CEF1C6623B80045DF8B /* Info.plist */,
-				AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */,
-			);
-			path = MowgliKit;
-			sourceTree = "<group>";
-		};
 		AE6F6CFA1C6623B80045DF8B /* MowgliKitTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,41 +224,44 @@
 			path = MowgliKitTests;
 			sourceTree = "<group>";
 		};
-		AE6F6D0F1C66243C0045DF8B /* Bagheera */ = {
+		AEFC904F1C9F44F600308704 /* Bagheera */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F6D101C66243C0045DF8B /* Bagheera.h */,
-				AE6F6D121C66243C0045DF8B /* Info.plist */,
-				AE25E2461C942FF80025BCBC /* BagTMDbClient.swift */,
+				AEFC90501C9F44F600308704 /* Bagheera.h */,
+				AE25E2461C942FF80025BCBC /* BGHTMDbClient.swift */,
+				AEFC90521C9F44F600308704 /* Info.plist */,
+				AEE14FBC1C9F56B00068DC13 /* Movie.swift */,
+				AEE14FBE1C9F56FF0068DC13 /* MovieList.swift */,
 			);
 			path = Bagheera;
 			sourceTree = "<group>";
 		};
-		AE6F6D1D1C66243C0045DF8B /* BagheeraTests */ = {
+		AEFC905B1C9F44F600308704 /* BagheeraTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F6D1E1C66243C0045DF8B /* BagheeraTests.swift */,
-				AE6F6D201C66243C0045DF8B /* Info.plist */,
+				AEFC905C1C9F44F600308704 /* BagheeraTests.swift */,
+				AEFC905E1C9F44F600308704 /* Info.plist */,
 			);
 			path = BagheeraTests;
+			sourceTree = "<group>";
+		};
+		AEFC907A1C9F452B00308704 /* MowgliKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFC907B1C9F452B00308704 /* MowgliKitTests.swift */,
+				AEFC907D1C9F452B00308704 /* Info.plist */,
+			);
+			path = MowgliKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AE6F6CE81C6623B80045DF8B /* Headers */ = {
+		AEFC904B1C9F44F600308704 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6CEE1C6623B80045DF8B /* MowgliKit.h in Headers */,
-				AE6F6D111C66243C0045DF8B /* Bagheera.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D0B1C66243C0045DF8B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				AEFC90511C9F44F600308704 /* Bagheera.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +283,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				AE6F6CFF1C6623B80045DF8B /* PBXTargetDependency */,
-				AE6F6D221C66243C0045DF8B /* PBXTargetDependency */,
 			);
 			name = Mowgli;
 			productName = Mowgli;
@@ -393,51 +325,14 @@
 			productReference = AE6F6CD41C661E220045DF8B /* MowgliUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		AE6F6CEA1C6623B80045DF8B /* MowgliKit */ = {
+		AEFC904D1C9F44F600308704 /* Bagheera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE6F6D061C6623B80045DF8B /* Build configuration list for PBXNativeTarget "MowgliKit" */;
+			buildConfigurationList = AEFC905F1C9F44F600308704 /* Build configuration list for PBXNativeTarget "Bagheera" */;
 			buildPhases = (
-				AE6F6CE61C6623B80045DF8B /* Sources */,
-				AE6F6CE71C6623B80045DF8B /* Frameworks */,
-				AE6F6CE81C6623B80045DF8B /* Headers */,
-				AE6F6CE91C6623B80045DF8B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MowgliKit;
-			productName = MowgliKit;
-			productReference = AE6F6CEB1C6623B80045DF8B /* MowgliKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AE6F6CF31C6623B80045DF8B /* MowgliKitTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE6F6D081C6623B80045DF8B /* Build configuration list for PBXNativeTarget "MowgliKitTests" */;
-			buildPhases = (
-				AE6F6CF01C6623B80045DF8B /* Sources */,
-				AE6F6CF11C6623B80045DF8B /* Frameworks */,
-				AE6F6CF21C6623B80045DF8B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AE6F6CF71C6623B80045DF8B /* PBXTargetDependency */,
-				AE6F6CF91C6623B80045DF8B /* PBXTargetDependency */,
-			);
-			name = MowgliKitTests;
-			productName = MowgliKitTests;
-			productReference = AE6F6CF41C6623B80045DF8B /* MowgliKitTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		AE6F6D0D1C66243C0045DF8B /* Bagheera */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE6F6D251C66243C0045DF8B /* Build configuration list for PBXNativeTarget "Bagheera" */;
-			buildPhases = (
-				AE6F6D091C66243C0045DF8B /* Sources */,
-				AE6F6D0A1C66243C0045DF8B /* Frameworks */,
-				AE6F6D0B1C66243C0045DF8B /* Headers */,
-				AE6F6D0C1C66243C0045DF8B /* Resources */,
+				AEFC90491C9F44F600308704 /* Sources */,
+				AEFC904A1C9F44F600308704 /* Frameworks */,
+				AEFC904B1C9F44F600308704 /* Headers */,
+				AEFC904C1C9F44F600308704 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -445,26 +340,25 @@
 			);
 			name = Bagheera;
 			productName = Bagheera;
-			productReference = AE6F6D0E1C66243C0045DF8B /* Bagheera.framework */;
+			productReference = AEFC904E1C9F44F600308704 /* Bagheera.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AE6F6D161C66243C0045DF8B /* BagheeraTests */ = {
+		AEFC90561C9F44F600308704 /* BagheeraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE6F6D281C66243C0045DF8B /* Build configuration list for PBXNativeTarget "BagheeraTests" */;
+			buildConfigurationList = AEFC90621C9F44F600308704 /* Build configuration list for PBXNativeTarget "BagheeraTests" */;
 			buildPhases = (
-				AE6F6D131C66243C0045DF8B /* Sources */,
-				AE6F6D141C66243C0045DF8B /* Frameworks */,
-				AE6F6D151C66243C0045DF8B /* Resources */,
+				AEFC90531C9F44F600308704 /* Sources */,
+				AEFC90541C9F44F600308704 /* Frameworks */,
+				AEFC90551C9F44F600308704 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AE6F6D1A1C66243C0045DF8B /* PBXTargetDependency */,
-				AE6F6D1C1C66243C0045DF8B /* PBXTargetDependency */,
+				AEFC905A1C9F44F600308704 /* PBXTargetDependency */,
 			);
 			name = BagheeraTests;
 			productName = BagheeraTests;
-			productReference = AE6F6D171C66243C0045DF8B /* BagheeraTests.xctest */;
+			productReference = AEFC90571C9F44F600308704 /* BagheeraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -473,13 +367,12 @@
 		AE6F6CAD1C661E220045DF8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = metodowhite;
 				TargetAttributes = {
 					AE6F6CB41C661E220045DF8B = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = SC8SYTRH6T;
 					};
 					AE6F6CC81C661E220045DF8B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -489,19 +382,11 @@
 						CreatedOnToolsVersion = 7.2.1;
 						TestTargetID = AE6F6CB41C661E220045DF8B;
 					};
-					AE6F6CEA1C6623B80045DF8B = {
-						CreatedOnToolsVersion = 7.2.1;
+					AEFC904D1C9F44F600308704 = {
+						CreatedOnToolsVersion = 7.3;
 					};
-					AE6F6CF31C6623B80045DF8B = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = AE6F6CB41C661E220045DF8B;
-					};
-					AE6F6D0D1C66243C0045DF8B = {
-						CreatedOnToolsVersion = 7.2.1;
-					};
-					AE6F6D161C66243C0045DF8B = {
-						CreatedOnToolsVersion = 7.2.1;
-						TestTargetID = AE6F6CB41C661E220045DF8B;
+					AEFC90561C9F44F600308704 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -521,10 +406,8 @@
 				AE6F6CB41C661E220045DF8B /* Mowgli */,
 				AE6F6CC81C661E220045DF8B /* MowgliTests */,
 				AE6F6CD31C661E220045DF8B /* MowgliUITests */,
-				AE6F6CEA1C6623B80045DF8B /* MowgliKit */,
-				AE6F6CF31C6623B80045DF8B /* MowgliKitTests */,
-				AE6F6D0D1C66243C0045DF8B /* Bagheera */,
-				AE6F6D161C66243C0045DF8B /* BagheeraTests */,
+				AEFC904D1C9F44F600308704 /* Bagheera */,
+				AEFC90561C9F44F600308704 /* BagheeraTests */,
 			);
 		};
 /* End PBXProject section */
@@ -554,28 +437,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE6F6CE91C6623B80045DF8B /* Resources */ = {
+		AEFC904C1C9F44F600308704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE6F6CF21C6623B80045DF8B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D0C1C66243C0045DF8B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D151C66243C0045DF8B /* Resources */ = {
+		AEFC90551C9F44F600308704 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -658,35 +527,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE6F6CE61C6623B80045DF8B /* Sources */ = {
+		AEFC90491C9F44F600308704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6D311C6642750045DF8B /* MovieListPresenter.swift in Sources */,
+				AEE14FBF1C9F56FF0068DC13 /* MovieList.swift in Sources */,
+				AEE14FBD1C9F56B00068DC13 /* Movie.swift in Sources */,
+				AEFC90651C9F450700308704 /* BGHTMDbClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE6F6CF01C6623B80045DF8B /* Sources */ = {
+		AEFC90531C9F44F600308704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6F6CFC1C6623B80045DF8B /* MowgliKitTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D091C66243C0045DF8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE25E2471C942FF80025BCBC /* BagTMDbClient.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE6F6D131C66243C0045DF8B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AE6F6D1F1C66243C0045DF8B /* BagheeraTests.swift in Sources */,
+				AEFC905D1C9F44F600308704 /* BagheeraTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,35 +558,10 @@
 			target = AE6F6CB41C661E220045DF8B /* Mowgli */;
 			targetProxy = AE6F6CD51C661E220045DF8B /* PBXContainerItemProxy */;
 		};
-		AE6F6CF71C6623B80045DF8B /* PBXTargetDependency */ = {
+		AEFC905A1C9F44F600308704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AE6F6CEA1C6623B80045DF8B /* MowgliKit */;
-			targetProxy = AE6F6CF61C6623B80045DF8B /* PBXContainerItemProxy */;
-		};
-		AE6F6CF91C6623B80045DF8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE6F6CB41C661E220045DF8B /* Mowgli */;
-			targetProxy = AE6F6CF81C6623B80045DF8B /* PBXContainerItemProxy */;
-		};
-		AE6F6CFF1C6623B80045DF8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE6F6CEA1C6623B80045DF8B /* MowgliKit */;
-			targetProxy = AE6F6CFE1C6623B80045DF8B /* PBXContainerItemProxy */;
-		};
-		AE6F6D1A1C66243C0045DF8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE6F6D0D1C66243C0045DF8B /* Bagheera */;
-			targetProxy = AE6F6D191C66243C0045DF8B /* PBXContainerItemProxy */;
-		};
-		AE6F6D1C1C66243C0045DF8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE6F6CB41C661E220045DF8B /* Mowgli */;
-			targetProxy = AE6F6D1B1C66243C0045DF8B /* PBXContainerItemProxy */;
-		};
-		AE6F6D221C66243C0045DF8B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AE6F6D0D1C66243C0045DF8B /* Bagheera */;
-			targetProxy = AE6F6D211C66243C0045DF8B /* PBXContainerItemProxy */;
+			target = AEFC904D1C9F44F600308704 /* Bagheera */;
+			targetProxy = AEFC90591C9F44F600308704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -844,6 +674,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Mowgli;
@@ -857,6 +688,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Mowgli;
@@ -912,73 +744,10 @@
 			};
 			name = Release;
 		};
-		AE6F6D021C6623B80045DF8B /* Debug */ = {
+		AEFC90601C9F44F600308704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MowgliKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.MowgliKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AE6F6D031C6623B80045DF8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MowgliKit/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.MowgliKit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AE6F6D041C6623B80045DF8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MowgliKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.MowgliKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
-			};
-			name = Debug;
-		};
-		AE6F6D051C6623B80045DF8B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = MowgliKitTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.MowgliKitTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
-			};
-			name = Release;
-		};
-		AE6F6D261C66243C0045DF8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -986,20 +755,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Bagheera/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Bagheera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		AE6F6D271C66243C0045DF8B /* Release */ = {
+		AEFC90611C9F44F600308704 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1007,6 +776,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Bagheera/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Bagheera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1016,25 +786,27 @@
 			};
 			name = Release;
 		};
-		AE6F6D291C66243C0045DF8B /* Debug */ = {
+		AEFC90631C9F44F600308704 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
 				INFOPLIST_FILE = BagheeraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.BagheeraTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
 			};
 			name = Debug;
 		};
-		AE6F6D2A1C66243C0045DF8B /* Release */ = {
+		AEFC90641C9F44F600308704 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
 				INFOPLIST_FILE = BagheeraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.BagheeraTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mowgli.app/Mowgli";
 			};
 			name = Release;
 		};
@@ -1077,38 +849,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE6F6D061C6623B80045DF8B /* Build configuration list for PBXNativeTarget "MowgliKit" */ = {
+		AEFC905F1C9F44F600308704 /* Build configuration list for PBXNativeTarget "Bagheera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE6F6D021C6623B80045DF8B /* Debug */,
-				AE6F6D031C6623B80045DF8B /* Release */,
+				AEFC90601C9F44F600308704 /* Debug */,
+				AEFC90611C9F44F600308704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE6F6D081C6623B80045DF8B /* Build configuration list for PBXNativeTarget "MowgliKitTests" */ = {
+		AEFC90621C9F44F600308704 /* Build configuration list for PBXNativeTarget "BagheeraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AE6F6D041C6623B80045DF8B /* Debug */,
-				AE6F6D051C6623B80045DF8B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE6F6D251C66243C0045DF8B /* Build configuration list for PBXNativeTarget "Bagheera" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE6F6D261C66243C0045DF8B /* Debug */,
-				AE6F6D271C66243C0045DF8B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AE6F6D281C66243C0045DF8B /* Build configuration list for PBXNativeTarget "BagheeraTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AE6F6D291C66243C0045DF8B /* Debug */,
-				AE6F6D2A1C66243C0045DF8B /* Release */,
+				AEFC90631C9F44F600308704 /* Debug */,
+				AEFC90641C9F44F600308704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

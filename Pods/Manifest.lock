@@ -6,10 +6,26 @@ PODS:
   - RxSwift (2.2.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 3.0)
+  - Alamofire
   - Freddy
-  - RxCocoa (~> 2.0)
-  - RxSwift (~> 2.0)
+  - RxCocoa (from `https://github.com/ReactiveX/RxSwift.git`, branch `xcode/7.3`)
+  - RxSwift (from `https://github.com/ReactiveX/RxSwift.git`, branch `xcode/7.3`)
+
+EXTERNAL SOURCES:
+  RxCocoa:
+    :branch: xcode/7.3
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :branch: xcode/7.3
+    :git: https://github.com/ReactiveX/RxSwift.git
+
+CHECKOUT OPTIONS:
+  RxCocoa:
+    :commit: 35d11b87aaa5f0e029f48f58627961af482b699a
+    :git: https://github.com/ReactiveX/RxSwift.git
+  RxSwift:
+    :commit: 35d11b87aaa5f0e029f48f58627961af482b699a
+    :git: https://github.com/ReactiveX/RxSwift.git
 
 SPEC CHECKSUMS:
   Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
