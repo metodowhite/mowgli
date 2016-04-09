@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE1ED88C1CB8FC01009032EB /* MovieListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */; };
+		AE1ED88D1CB8FC26009032EB /* Bagheera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEFC904E1C9F44F600308704 /* Bagheera.framework */; };
 		AE6F6CB91C661E220045DF8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F6CB81C661E220045DF8B /* AppDelegate.swift */; };
 		AE6F6CBE1C661E220045DF8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBC1C661E220045DF8B /* Main.storyboard */; };
 		AE6F6CC01C661E220045DF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F6CBF1C661E220045DF8B /* Assets.xcassets */; };
@@ -76,8 +78,6 @@
 		AE6F6CD41C661E220045DF8B /* MowgliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MowgliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6F6CD81C661E220045DF8B /* MowgliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MowgliUITests.swift; sourceTree = "<group>"; };
 		AE6F6CDA1C661E220045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE6F6CFB1C6623B80045DF8B /* MowgliKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MowgliKitTests.swift; sourceTree = "<group>"; };
-		AE6F6CFD1C6623B80045DF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
 		AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieListPresenter.swift; path = MowgliKit/MovieListPresenter.swift; sourceTree = SOURCE_ROOT; };
 		AEE14FB91C9F472F0068DC13 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
@@ -89,8 +89,6 @@
 		AEFC90571C9F44F600308704 /* BagheeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BagheeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFC905C1C9F44F600308704 /* BagheeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagheeraTests.swift; sourceTree = "<group>"; };
 		AEFC905E1C9F44F600308704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEFC907B1C9F452B00308704 /* MowgliKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MowgliKitTests.swift; sourceTree = "<group>"; };
-		AEFC907D1C9F452B00308704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4004A5338AD63E0182CCB8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D4DB576A3CFDB62151160258 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE1ED88D1CB8FC26009032EB /* Bagheera.framework in Frameworks */,
 				DE257971B5AA4A3E7F9D318D /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,8 +161,6 @@
 				AEFC904F1C9F44F600308704 /* Bagheera */,
 				AEFC905B1C9F44F600308704 /* BagheeraTests */,
 				A7600E6ADECD065611222EE4 /* Frameworks */,
-				AE6F6CFA1C6623B80045DF8B /* MowgliKitTests */,
-				AEFC907A1C9F452B00308704 /* MowgliKitTests */,
 				AE6F6CCC1C661E220045DF8B /* MowgliTests */,
 				AE6F6CD71C661E220045DF8B /* MowgliUITests */,
 				57B64A52392E8A5396A99E01 /* Pods */,
@@ -186,12 +183,12 @@
 		AE6F6CB71C661E220045DF8B /* Mowgli */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */,
 				AE6F6CB81C661E220045DF8B /* AppDelegate.swift */,
 				AE6F6CBF1C661E220045DF8B /* Assets.xcassets */,
 				AE6F6CC41C661E220045DF8B /* Info.plist */,
 				AE6F6CC11C661E220045DF8B /* LaunchScreen.storyboard */,
 				AE6F6CBC1C661E220045DF8B /* Main.storyboard */,
+				AE6F6D301C6642750045DF8B /* MovieListPresenter.swift */,
 				AE6F6D2E1C6641A50045DF8B /* MovieListTableViewController.swift */,
 			);
 			path = Mowgli;
@@ -215,15 +212,6 @@
 			path = MowgliUITests;
 			sourceTree = "<group>";
 		};
-		AE6F6CFA1C6623B80045DF8B /* MowgliKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				AE6F6CFB1C6623B80045DF8B /* MowgliKitTests.swift */,
-				AE6F6CFD1C6623B80045DF8B /* Info.plist */,
-			);
-			path = MowgliKitTests;
-			sourceTree = "<group>";
-		};
 		AEFC904F1C9F44F600308704 /* Bagheera */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,15 +231,6 @@
 				AEFC905E1C9F44F600308704 /* Info.plist */,
 			);
 			path = BagheeraTests;
-			sourceTree = "<group>";
-		};
-		AEFC907A1C9F452B00308704 /* MowgliKitTests */ = {
-			isa = PBXGroup;
-			children = (
-				AEFC907B1C9F452B00308704 /* MowgliKitTests.swift */,
-				AEFC907D1C9F452B00308704 /* Info.plist */,
-			);
-			path = MowgliKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +486,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6F6D2F1C6641A50045DF8B /* MovieListTableViewController.swift in Sources */,
+				AE1ED88C1CB8FC01009032EB /* MovieListPresenter.swift in Sources */,
 				AE6F6CB91C661E220045DF8B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,7 +654,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Mowgli;
@@ -688,7 +667,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Mowgli/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.metodowhite.Mowgli;

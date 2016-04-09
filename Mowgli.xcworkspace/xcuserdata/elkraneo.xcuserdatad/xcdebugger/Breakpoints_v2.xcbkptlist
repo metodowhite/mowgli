@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MowgliKit/MovieListPresenter.swift"
-            timestampString = "480203631.210326"
+            timestampString = "480206626.725109"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "init(list:)"
             landmarkType = "5">
          </BreakpointContent>

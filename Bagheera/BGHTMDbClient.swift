@@ -37,7 +37,6 @@ public struct BGHTMDbClient {
 						
 						observer.onNext(movieList)
 						observer.onCompleted()
-						
 					} catch {
 						observer.onError(MovieListError.NoData)
 						return

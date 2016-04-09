@@ -7,21 +7,21 @@
 //
 
 import UIKit
-import MowgliKit
 import RxSwift
-import Bagheera
 
 class MovieListTableViewController: UITableViewController {
 	
 	let presenter = MovieListPresenter(list: .Popular)
+	let disposeBag = DisposeBag()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		_ = presenter.movies.subscribeNext { (movies) in
-			print(movies)
-		}
-		
+		presenter.movies
+			.subscribeNext { (movies) in
+				print(movies)
+			}
+			.addDisposableTo(disposeBag)
 	}
 	
 	override func didReceiveMemoryWarning() {

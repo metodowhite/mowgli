@@ -12,8 +12,6 @@ import RxSwift
 
 public struct MovieListPresenter  {
 	
-	private let disposeBag = DisposeBag()
-	
 	public let movies: Observable<[Movie]>
 	
 	public init(list: MovieListEndpoint) {
